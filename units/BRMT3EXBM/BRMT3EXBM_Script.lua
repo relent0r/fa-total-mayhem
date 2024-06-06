@@ -11,13 +11,13 @@
 local CWalkingLandUnit = import('/lua/cybranunits.lua').CWalkingLandUnit
 local WeaponsFile = import('/lua/cybranweapons.lua')
 local WeaponsFile2 = import('/lua/terranweapons.lua')
-local TMWeaponsFile = import('/mods/TotalMayhem/lua/TMAeonWeapons.lua')
+local TMWeaponsFile = import('/mods/fa-total-mayhem/lua/TMAeonWeapons.lua')
 local TMCSpiderLaserweapon = TMWeaponsFile.TMCSpiderLaserweapon
 local CDFHeavyMicrowaveLaserGeneratorCom = WeaponsFile.CDFHeavyMicrowaveLaserGeneratorCom
 local CDFHeavyDisintegratorWeapon = WeaponsFile.CDFHeavyDisintegratorWeapon
 local TDFGaussCannonWeapon = WeaponsFile2.TDFLandGaussCannonWeapon
 local EffectTemplate = import('/lua/EffectTemplates.lua')
-local TMEffectTemplate = import('/mods/TotalMayhem/lua/TMEffectTemplates.lua')
+local TMEffectTemplate = import('/mods/fa-total-mayhem/lua/TMEffectTemplates.lua')
 
 BRMT3EXBM = Class(CWalkingLandUnit){
 	AirEffects = { '/effects/emitters/hydrocarbon_smoke_01_emit.bp' },

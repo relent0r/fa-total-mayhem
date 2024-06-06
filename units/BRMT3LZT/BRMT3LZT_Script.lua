@@ -13,7 +13,7 @@ local CWeapons = import('/lua/cybranweapons.lua')
 local CDFHeavyDisintegratorWeapon = CWeapons.CDFHeavyDisintegratorWeapon
 local WeaponsFileAutoAttack = import('/lua/terranweapons.lua')
 local AutoAttackWeapon = WeaponsFileAutoAttack.TDFLandGaussCannonWeapon
-local TMEffectTemplate = import('/mods/TotalMayhem/lua/TMEffectTemplates.lua')
+local TMEffectTemplate = import('/mods/fa-total-mayhem/lua/TMEffectTemplates.lua')
 
 BRMT3LZT = Class(TLandUnit){
 	Weapons = {

@@ -77,12 +77,12 @@ UnitBlueprint{
 	Display = {
 		Abilities = { '<LOC ability_aa>Anti-Air', '<LOC ability_radar>Radar', '<LOC ability_sonar>Sonar' },
 		AnimationDeath = { {
-			Animation = '/mods/TotalMayhem/units/BROST1BATTLESHIP/BROST1BATTLESHIP_death.sca',
+			Animation = '/mods/fa-total-mayhem/units/BROST1BATTLESHIP/BROST1BATTLESHIP_death.sca',
 			AnimationRateMax = 0.1,
 			AnimationRateMin = 0.1,
 			Weight = 30,
 		}, {
-			Animation = '/mods/TotalMayhem/units/BROST1BATTLESHIP/BROST1BATTLESHIP_death2.sca',
+			Animation = '/mods/fa-total-mayhem/units/BROST1BATTLESHIP/BROST1BATTLESHIP_death2.sca',
 			AnimationRateMax = 0.1,
 			AnimationRateMin = 0.1,
 			Weight = 30,
@@ -100,7 +100,7 @@ UnitBlueprint{
 		Mesh = {
 			IconFadeInZoom = 130,
 			LODs = { {
-				AlbedoName = '/mods/TotalMayhem/units/AeonTexture/AeonTexture_albedo.dds',
+				AlbedoName = '/mods/fa-total-mayhem/units/AeonTexture/AeonTexture_albedo.dds',
 				LODCutoff = 540,
 				ShaderName = 'Aeon',
 			} },
@@ -604,7 +604,7 @@ UnitBlueprint{
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 40,
 		PrefersPrimaryWeaponTarget = true,
-		ProjectileId = '/mods/TotalMayhem/projectiles/NULLWEAPON/NULLWEAPON_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/NULLWEAPON/NULLWEAPON_proj.bp',
 		ProjectileLifetimeUsesMultiplier = 1,
 		ProjectilesPerOnFire = 1,
 		RackBones = { {

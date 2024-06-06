@@ -58,7 +58,7 @@ UnitBlueprint{
 	Description = '<LOC urb1108_desc>Naval Mass Rig',
 	Display = {
 		Abilities = { 'Naval' },
-		AnimationOpen = '/Mods/TotalMayhem/units/urb1108/urb1108_Apump.sca',
+		AnimationOpen = '/mods/fa-total-mayhem/units/urb1108/urb1108_Apump.sca',
 		--AnimationUpgrade = '/units/urb1103/urb1103_Aupgrade.sca',
 		Mesh = {
 			IconFadeInZoom = 130,

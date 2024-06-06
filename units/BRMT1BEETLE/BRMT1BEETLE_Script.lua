@@ -15,7 +15,7 @@ local CCannonMolecularWeapon = WeaponsFile.CCannonMolecularWeapon
 local CDFHeavyMicrowaveLaserGeneratorCom = WeaponsFile.CDFHeavyMicrowaveLaserGeneratorCom
 local TDFGaussCannonWeapon = WeaponsFile2.TDFLandGaussCannonWeapon
 local EffectTemplate = import('/lua/EffectTemplates.lua')
-local TMEffectTemplate = import('/mods/TotalMayhem/lua/TMEffectTemplates.lua')
+local TMEffectTemplate = import('/mods/fa-total-mayhem/lua/TMEffectTemplates.lua')
 
 BRMT1BEETLE = Class(CWalkingLandUnit){
 	Weapons = {

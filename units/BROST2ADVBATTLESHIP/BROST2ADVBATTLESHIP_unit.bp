@@ -87,12 +87,12 @@ UnitBlueprint{
 			'<LOC ability_torpedo>Torpedoes',
 		},
 		AnimationDeath = { {
-			Animation = '/mods/TotalMayhem/units/BROST1BATTLESHIP/BROST1BATTLESHIP_death.sca',
+			Animation = '/mods/fa-total-mayhem/units/BROST1BATTLESHIP/BROST1BATTLESHIP_death.sca',
 			AnimationRateMax = 0.1,
 			AnimationRateMin = 0.1,
 			Weight = 30,
 		}, {
-			Animation = '/mods/TotalMayhem/units/BROST1BATTLESHIP/BROST1BATTLESHIP_death2.sca',
+			Animation = '/mods/fa-total-mayhem/units/BROST1BATTLESHIP/BROST1BATTLESHIP_death2.sca',
 			AnimationRateMax = 0.1,
 			AnimationRateMin = 0.1,
 			Weight = 30,
@@ -581,7 +581,7 @@ UnitBlueprint{
 		MuzzleSalvoDelay = 0,
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 35,
-		ProjectileId = '/mods/TotalMayhem/projectiles/BROST2ADVBATTLESHIPproj/BROST2ADVBATTLESHIPproj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BROST2ADVBATTLESHIPproj/BROST2ADVBATTLESHIPproj_proj.bp',
 		ProjectileLifetime = 6,
 		ProjectilesPerOnFire = 1,
 		RackBones = { {
@@ -650,7 +650,7 @@ UnitBlueprint{
 		MuzzleSalvoDelay = 0,
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 35,
-		ProjectileId = '/mods/TotalMayhem/projectiles/BROST2ADVBATTLESHIPproj/BROST2ADVBATTLESHIPproj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BROST2ADVBATTLESHIPproj/BROST2ADVBATTLESHIPproj_proj.bp',
 		ProjectileLifetime = 6,
 		ProjectilesPerOnFire = 1,
 		RackBones = { {
@@ -747,7 +747,7 @@ UnitBlueprint{
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 40,
 		PrefersPrimaryWeaponTarget = true,
-		ProjectileId = '/mods/TotalMayhem/projectiles/NULLWEAPON/NULLWEAPON_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/NULLWEAPON/NULLWEAPON_proj.bp',
 		ProjectileLifetimeUsesMultiplier = 1,
 		ProjectilesPerOnFire = 1,
 		RackBones = { {

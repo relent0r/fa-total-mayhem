@@ -13,7 +13,7 @@ local WeaponsFile = import('/lua/terranweapons.lua')
 local TDFGaussCannonWeapon = WeaponsFile.TDFLandGaussCannonWeapon
 local TDFHeavyPlasmaCannonWeapon = WeaponsFile.TDFHeavyPlasmaGatlingCannonWeapon
 local EffectTemplate = import('/lua/EffectTemplates.lua')
-local TMEffectTemplate = import('/mods/TotalMayhem/lua/TMEffectTemplates.lua')
+local TMEffectTemplate = import('/mods/fa-total-mayhem/lua/TMEffectTemplates.lua')
 
 BROT1BTT2 = Class(AHoverLandUnit){
 	Weapons = {

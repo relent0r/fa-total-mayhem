@@ -10,7 +10,7 @@
 
 local TAirUnit = import('/lua/terranunits.lua').TAirUnit
 local TIFSmallYieldNuclearBombWeapon = import('/lua/terranweapons.lua').TIFSmallYieldNuclearBombWeapon
-local TMEffectTemplate = import('/mods/TotalMayhem/lua/TMEffectTemplates.lua')
+local TMEffectTemplate = import('/mods/fa-total-mayhem/lua/TMEffectTemplates.lua')
 local util = import('/lua/utilities.lua')
 local fxutil = import('/lua/effectutilities.lua')
 

@@ -93,15 +93,15 @@ UnitBlueprint{
 			'<LOC ability_deathaoe>Volatile',
 		},
 		AnimationDeath = { {
-			Animation = '/mods/TotalMayhem/units/BRMT3VUL/BRMT3VUL_Death.sca',
+			Animation = '/mods/fa-total-mayhem/units/BRMT3VUL/BRMT3VUL_Death.sca',
 			Weight = 100,
 		} },
-		AnimationWalk = '/mods/TotalMayhem/units/BRMT3VUL/BRMT3VUL_Walk.sca',
+		AnimationWalk = '/mods/fa-total-mayhem/units/BRMT3VUL/BRMT3VUL_Walk.sca',
 		AnimationWalkRate = 2.65,
 		Mesh = {
 			IconFadeInZoom = 130,
 			LODs = { {
-				AlbedoName = '/mods/TotalMayhem/units/CybranTexture/CybranTexture_albedo.dds',
+				AlbedoName = '/mods/fa-total-mayhem/units/CybranTexture/CybranTexture_albedo.dds',
 				LODCutoff = 500,
 				ShaderName = 'Insect',
 			} },
@@ -283,7 +283,7 @@ UnitBlueprint{
 		MuzzleSalvoSize = 15,
 		MuzzleVelocity = 50,
 		MuzzleVelocityRandomness = 0.5,
-		ProjectileId = '/mods/TotalMayhem/projectiles/BRMT3BM2TLproj/BRMT3BM2TLproj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BRMT3BM2TLproj/BRMT3BM2TLproj_proj.bp',
 		ProjectileLifetimeUsesMultiplier = 15.15,
 		ProjectilesPerOnFire = 1,
 		RackBones = { {
@@ -355,7 +355,7 @@ UnitBlueprint{
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 45,
 		PrefersPrimaryWeaponTarget = true,
-		ProjectileId = '/mods/TotalMayhem/projectiles/MadCatMolecular/MadCatMolecular_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/MadCatMolecular/MadCatMolecular_proj.bp',
 		ProjectileLifetimeUsesMultiplier = 5,
 		ProjectilesPerOnFire = 1,
 		RackBones = { {
@@ -428,7 +428,7 @@ UnitBlueprint{
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 45,
 		PrefersPrimaryWeaponTarget = true,
-		ProjectileId = '/mods/TotalMayhem/projectiles/MadCatMolecular/MadCatMolecular_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/MadCatMolecular/MadCatMolecular_proj.bp',
 		ProjectileLifetimeUsesMultiplier = 5,
 		ProjectilesPerOnFire = 1,
 		RackBones = { {
@@ -724,7 +724,7 @@ UnitBlueprint{
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 40,
 		PrefersPrimaryWeaponTarget = true,
-		ProjectileId = '/mods/TotalMayhem/projectiles/NULLWEAPON/NULLWEAPON_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/NULLWEAPON/NULLWEAPON_proj.bp',
 		ProjectileLifetimeUsesMultiplier = 1,
 		ProjectilesPerOnFire = 1,
 		RackBones = { {

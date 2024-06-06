@@ -9,8 +9,8 @@ end
 local OLDSetupSessionTotalMayhem = SetupSession
 function SetupSession()
 	OLDSetupSessionTotalMayhem()
-	import('/mods/TotalMayhem/lua/AI/AIBuilders/TotalMayhemBuilder.lua')
-	import('/mods/TotalMayhem/lua/AI/AIBuilders/TotalMayhemDefenseUpgrade.lua')
+	import('/mods/fa-total-mayhem/lua/AI/AIBuilders/TotalMayhemBuilder.lua')
+	import('/mods/fa-total-mayhem/lua/AI/AIBuilders/TotalMayhemDefenseUpgrade.lua')
 end
 
 function ValidateModFilesTotalMayhem()

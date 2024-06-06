@@ -14,7 +14,7 @@ local AeonWeapons = import('/lua/aeonweapons.lua')
 local TDFGaussCannonWeapon = WeaponsFile.TDFLandGaussCannonWeapon
 local ADFQuantumAutogunWeapon = AeonWeapons.ADFQuantumAutogunWeapon
 local AAAZealotMissileWeapon = AeonWeapons.AAAZealotMissileWeapon
-local TMEffectTemplate = import('/mods/TotalMayhem/lua/TMEffectTemplates.lua')
+local TMEffectTemplate = import('/mods/fa-total-mayhem/lua/TMEffectTemplates.lua')
 local util = import('/lua/utilities.lua')
 local fxutil = import('/lua/effectutilities.lua')
 

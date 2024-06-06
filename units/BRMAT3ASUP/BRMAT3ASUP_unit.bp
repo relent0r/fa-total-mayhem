@@ -136,9 +136,9 @@ UnitBlueprint{
 			IconFadeInZoom = 130,
 			LODs = { {
 				LODCutoff = 340,
-				AlbedoName = '/mods/TotalMayhem/units/BRMAT2GUNSHIP/BRMAT2GUNSHIP_Albedo.dds',
-				NormalsName = '/mods/TotalMayhem/units/BRMAT2GUNSHIP/BRMAT2GUNSHIP_NormalsTS.DDS',
-				SpecularName = '/mods/TotalMayhem/units/BRMAT2GUNSHIP/BRMAT2GUNSHIP_SpecTeam.dds',
+				AlbedoName = '/mods/fa-total-mayhem/units/BRMAT2GUNSHIP/BRMAT2GUNSHIP_Albedo.dds',
+				NormalsName = '/mods/fa-total-mayhem/units/BRMAT2GUNSHIP/BRMAT2GUNSHIP_NormalsTS.DDS',
+				SpecularName = '/mods/fa-total-mayhem/units/BRMAT2GUNSHIP/BRMAT2GUNSHIP_SpecTeam.dds',
 				ShaderName = 'Insect',
 			} },
 		},

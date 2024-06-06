@@ -94,12 +94,12 @@ UnitBlueprint{
 	Display = {
 		Abilities = { '<LOC ability_amphibious>Amphibious', '<LOC ability_aa>Anti-Air', '<LOC ability_massive>Massive' },
 		AnimationDeath = { {
-			Animation = '/mods/TotalMayhem/units/BRPT3SHBM/BRPT3SHBM_Death1.sca',
+			Animation = '/mods/fa-total-mayhem/units/BRPT3SHBM/BRPT3SHBM_Death1.sca',
 			AnimationRateMax = 1.27,
 			AnimationRateMin = 1.27,
 			Weight = 100,
 		} },
-		AnimationWalk = '/mods/TotalMayhem/units/BRPT3SHBM/BRPT3SHBM_Walk.sca',
+		AnimationWalk = '/mods/fa-total-mayhem/units/BRPT3SHBM/BRPT3SHBM_Walk.sca',
 		AnimationWalkRate = 1.35,
 		Mesh = {
 			IconFadeInZoom = 130,
@@ -509,7 +509,7 @@ UnitBlueprint{
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 50,
 		PrefersPrimaryWeaponTarget = true,
-		ProjectileId = '/mods/TotalMayhem/projectiles/BRPT3SHBMproj/BRPT3SHBMproj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BRPT3SHBMproj/BRPT3SHBMproj_proj.bp',
 		ProjectileLifetimeUsesMultiplier = 4.15,
 		RackBones = { {
 			MuzzleBones = { 'muzzle02' },
@@ -721,7 +721,7 @@ UnitBlueprint{
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 40,
 		PrefersPrimaryWeaponTarget = true,
-		ProjectileId = '/mods/TotalMayhem/projectiles/NULLWEAPON/NULLWEAPON_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/NULLWEAPON/NULLWEAPON_proj.bp',
 		ProjectileLifetimeUsesMultiplier = 1,
 		ProjectilesPerOnFire = 1,
 		RackBones = { {

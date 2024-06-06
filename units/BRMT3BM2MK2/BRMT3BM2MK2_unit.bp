@@ -73,18 +73,18 @@ UnitBlueprint{
 	Display = {
 		Abilities = { '<LOC ability_amphibious>Amphibious', '<LOC ability_radar>Radar' },
 		AnimationDeath = { {
-			Animation = '/mods/TotalMayhem/units/BRMT3BM2MK2/BRMT3BM2MK2_Death.sca',
+			Animation = '/mods/fa-total-mayhem/units/BRMT3BM2MK2/BRMT3BM2MK2_Death.sca',
 			Weight = 100,
 		}, {
-			Animation = '/mods/TotalMayhem/units/BRMT3BM2MK2/BRMT3BM2MK2_Death2.sca',
+			Animation = '/mods/fa-total-mayhem/units/BRMT3BM2MK2/BRMT3BM2MK2_Death2.sca',
 			Weight = 100,
 		} },
-		AnimationWalk = '/mods/TotalMayhem/units/BRMT3BM2MK2/BRMT3BM2MK2_walk.sca',
+		AnimationWalk = '/mods/fa-total-mayhem/units/BRMT3BM2MK2/BRMT3BM2MK2_walk.sca',
 		AnimationWalkRate = 3.1,
 		Mesh = {
 			IconFadeInZoom = 130,
 			LODs = { {
-				AlbedoName = '/mods/TotalMayhem/units/CybranTexture/CybranTexture_albedo.dds',
+				AlbedoName = '/mods/fa-total-mayhem/units/CybranTexture/CybranTexture_albedo.dds',
 				LODCutoff = 250,
 				ShaderName = 'Unit',
 			} },
@@ -212,7 +212,7 @@ UnitBlueprint{
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 40,
 		PrefersPrimaryWeaponTarget = true,
-		ProjectileId = '/mods/TotalMayhem/projectiles/BRMT3BTproj/BRMT3BTproj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BRMT3BTproj/BRMT3BTproj_proj.bp',
 		ProjectileLifetimeUsesMultiplier = 5,
 		ProjectilesPerOnFire = 1,
 		RackBones = { {
@@ -274,7 +274,7 @@ UnitBlueprint{
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 40,
 		PrefersPrimaryWeaponTarget = true,
-		ProjectileId = '/mods/TotalMayhem/projectiles/BRMT3BTproj/BRMT3BTproj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BRMT3BTproj/BRMT3BTproj_proj.bp',
 		ProjectileLifetimeUsesMultiplier = 5,
 		ProjectilesPerOnFire = 1,
 		RackBones = { {
@@ -336,7 +336,7 @@ UnitBlueprint{
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 40,
 		PrefersPrimaryWeaponTarget = true,
-		ProjectileId = '/mods/TotalMayhem/projectiles/BRMT1HVYproj/BRMT1HVYproj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BRMT1HVYproj/BRMT1HVYproj_proj.bp',
 		ProjectileLifetimeUsesMultiplier = 5,
 		ProjectilesPerOnFire = 1,
 		RackBones = { {
@@ -401,7 +401,7 @@ UnitBlueprint{
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 40,
 		PrefersPrimaryWeaponTarget = true,
-		ProjectileId = '/mods/TotalMayhem/projectiles/BRMT1HVYproj/BRMT1HVYproj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BRMT1HVYproj/BRMT1HVYproj_proj.bp',
 		ProjectileLifetimeUsesMultiplier = 5,
 		ProjectilesPerOnFire = 1,
 		RackBones = { {
@@ -466,7 +466,7 @@ UnitBlueprint{
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 40,
 		PrefersPrimaryWeaponTarget = true,
-		ProjectileId = '/mods/TotalMayhem/projectiles/BRMT1HVYproj/BRMT1HVYproj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BRMT1HVYproj/BRMT1HVYproj_proj.bp',
 		ProjectileLifetimeUsesMultiplier = 5,
 		ProjectilesPerOnFire = 1,
 		RackBones = { {
@@ -531,7 +531,7 @@ UnitBlueprint{
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 40,
 		PrefersPrimaryWeaponTarget = true,
-		ProjectileId = '/mods/TotalMayhem/projectiles/BRMT1HVYproj/BRMT1HVYproj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BRMT1HVYproj/BRMT1HVYproj_proj.bp',
 		ProjectileLifetimeUsesMultiplier = 5,
 		ProjectilesPerOnFire = 1,
 		RackBones = { {
@@ -596,7 +596,7 @@ UnitBlueprint{
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 40,
 		PrefersPrimaryWeaponTarget = true,
-		ProjectileId = '/mods/TotalMayhem/projectiles/NULLWEAPON/NULLWEAPON_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/NULLWEAPON/NULLWEAPON_proj.bp',
 		ProjectileLifetimeUsesMultiplier = 1,
 		ProjectilesPerOnFire = 1,
 		RackBones = { {
@@ -729,7 +729,7 @@ UnitBlueprint{
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 40,
 		PrefersPrimaryWeaponTarget = true,
-		ProjectileId = '/mods/TotalMayhem/projectiles/NULLWEAPON/NULLWEAPON_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/NULLWEAPON/NULLWEAPON_proj.bp',
 		ProjectileLifetimeUsesMultiplier = 1,
 		ProjectilesPerOnFire = 1,
 		RackBones = { {

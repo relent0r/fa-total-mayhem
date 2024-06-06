@@ -83,12 +83,12 @@ UnitBlueprint{
 			'<LOC ability_torpedo>Torpedoes',
 		},
 		AnimationDeath = { {
-			Animation = '/mods/TotalMayhem/units/BRNST1BATTLESHIP/BRNST1BATTLESHIP_Death.sca',
+			Animation = '/mods/fa-total-mayhem/units/BRNST1BATTLESHIP/BRNST1BATTLESHIP_Death.sca',
 			AnimationRateMax = 0.1,
 			AnimationRateMin = 0.1,
 			Weight = 30,
 		}, {
-			Animation = '/mods/TotalMayhem/units/BRNST1BATTLESHIP/BRNST1BATTLESHIP_Death2.sca',
+			Animation = '/mods/fa-total-mayhem/units/BRNST1BATTLESHIP/BRNST1BATTLESHIP_Death2.sca',
 			AnimationRateMax = 0.1,
 			AnimationRateMin = 0.1,
 			Weight = 30,
@@ -250,7 +250,7 @@ UnitBlueprint{
 		MuzzleSalvoDelay = 0,
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 30,
-		ProjectileId = '/mods/TotalMayhem/projectiles/BRNT2HTproj/BRNT2HTproj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BRNT2HTproj/BRNT2HTproj_proj.bp',
 		ProjectilesPerOnFire = 1,
 		RackBones = { {
 			MuzzleBones = { 'Front_Turret01_Muzzle04' },
@@ -321,7 +321,7 @@ UnitBlueprint{
 		MuzzleSalvoDelay = 0,
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 30,
-		ProjectileId = '/mods/TotalMayhem/projectiles/BRNT2HTproj/BRNT2HTproj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BRNT2HTproj/BRNT2HTproj_proj.bp',
 		ProjectilesPerOnFire = 1,
 		RackBones = { {
 			MuzzleBones = { 'Front_Turret01_Muzzle01' },
@@ -392,7 +392,7 @@ UnitBlueprint{
 		MuzzleSalvoDelay = 0,
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 30,
-		ProjectileId = '/mods/TotalMayhem/projectiles/BRNT2HTproj/BRNT2HTproj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BRNT2HTproj/BRNT2HTproj_proj.bp',
 		ProjectilesPerOnFire = 1,
 		RackBones = { {
 			MuzzleBones = { 'Front_Turret01_Muzzle06' },
@@ -463,7 +463,7 @@ UnitBlueprint{
 		MuzzleSalvoDelay = 0,
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 30,
-		ProjectileId = '/mods/TotalMayhem/projectiles/BRNT2HTproj/BRNT2HTproj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BRNT2HTproj/BRNT2HTproj_proj.bp',
 		ProjectilesPerOnFire = 1,
 		RackBones = { {
 			MuzzleBones = { 'Front_Turret01_Muzzle08' },
@@ -672,7 +672,7 @@ UnitBlueprint{
 		MuzzleSalvoDelay = 0,
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 25,
-		ProjectileId = '/mods/TotalMayhem/projectiles/BRNT1MTproj/BRNT1MTproj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BRNT1MTproj/BRNT1MTproj_proj.bp',
 		ProjectilesPerOnFire = 1,
 		RackBones = { {
 			MuzzleBones = { 'Front_Turret01_Muzzle15' },
@@ -738,7 +738,7 @@ UnitBlueprint{
 		MuzzleSalvoDelay = 0,
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 25,
-		ProjectileId = '/mods/TotalMayhem/projectiles/BRNT1MTproj/BRNT1MTproj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BRNT1MTproj/BRNT1MTproj_proj.bp',
 		ProjectilesPerOnFire = 1,
 		RackBones = { {
 			MuzzleBones = { 'Front_Turret01_Muzzle11' },
@@ -804,7 +804,7 @@ UnitBlueprint{
 		MuzzleSalvoDelay = 0,
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 25,
-		ProjectileId = '/mods/TotalMayhem/projectiles/BRNT1MTproj/BRNT1MTproj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BRNT1MTproj/BRNT1MTproj_proj.bp',
 		ProjectilesPerOnFire = 1,
 		RackBones = { {
 			MuzzleBones = { 'Front_Turret01_Muzzle09' },
@@ -870,7 +870,7 @@ UnitBlueprint{
 		MuzzleSalvoDelay = 0,
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 25,
-		ProjectileId = '/mods/TotalMayhem/projectiles/BRNT1MTproj/BRNT1MTproj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BRNT1MTproj/BRNT1MTproj_proj.bp',
 		ProjectilesPerOnFire = 1,
 		RackBones = { {
 			MuzzleBones = { 'Front_Turret01_Muzzle10' },
@@ -936,7 +936,7 @@ UnitBlueprint{
 		MuzzleSalvoDelay = 0,
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 25,
-		ProjectileId = '/mods/TotalMayhem/projectiles/BRNT1MTproj/BRNT1MTproj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BRNT1MTproj/BRNT1MTproj_proj.bp',
 		ProjectilesPerOnFire = 1,
 		RackBones = { {
 			MuzzleBones = { 'Front_Turret01_Muzzle17' },
@@ -1002,7 +1002,7 @@ UnitBlueprint{
 		MuzzleSalvoDelay = 0,
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 25,
-		ProjectileId = '/mods/TotalMayhem/projectiles/BRNT1MTproj/BRNT1MTproj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BRNT1MTproj/BRNT1MTproj_proj.bp',
 		ProjectilesPerOnFire = 1,
 		RackBones = { {
 			MuzzleBones = { 'Front_Turret01_Muzzle13' },
@@ -1068,7 +1068,7 @@ UnitBlueprint{
 		MuzzleSalvoDelay = 0,
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 25,
-		ProjectileId = '/mods/TotalMayhem/projectiles/BRNT1MTproj/BRNT1MTproj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BRNT1MTproj/BRNT1MTproj_proj.bp',
 		ProjectilesPerOnFire = 1,
 		RackBones = { {
 			MuzzleBones = { 'Front_Turret01_Muzzle16' },
@@ -1134,7 +1134,7 @@ UnitBlueprint{
 		MuzzleSalvoDelay = 0,
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 25,
-		ProjectileId = '/mods/TotalMayhem/projectiles/BRNT1MTproj/BRNT1MTproj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BRNT1MTproj/BRNT1MTproj_proj.bp',
 		ProjectilesPerOnFire = 1,
 		RackBones = { {
 			MuzzleBones = { 'Front_Turret01_Muzzle12' },
@@ -1304,7 +1304,7 @@ UnitBlueprint{
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 40,
 		PrefersPrimaryWeaponTarget = true,
-		ProjectileId = '/mods/TotalMayhem/projectiles/NULLWEAPON/NULLWEAPON_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/NULLWEAPON/NULLWEAPON_proj.bp',
 		ProjectileLifetimeUsesMultiplier = 1,
 		ProjectilesPerOnFire = 1,
 		RackBones = { {

@@ -59,7 +59,7 @@ UnitBlueprint{
 	Display = {
 		Abilities = { '<LOC ability_amphibious>Amphibious' },
 		AnimationDeath = { {
-			Animation = '/mods/TotalMayhem/units/BROBT1PERI/BROBT1PERI_death.sca',
+			Animation = '/mods/fa-total-mayhem/units/BROBT1PERI/BROBT1PERI_death.sca',
 			AnimationRateMax = 1.77,
 			AnimationRateMin = 1.77,
 			Weight = 160,

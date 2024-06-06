@@ -5,7 +5,7 @@ copyright = 'Burnie'
 description = '(For all gameversions) This mod adds alot more units with full AI support. Prepare for mayhem!'
 author = 'Burnie'
 url = 'http://forums.faforever.com/viewforum.php?f=47'
-icon = '/mods/TotalMayhem/modicon.jpg'
+icon = '/mods/fa-total-mayhem/modicon.jpg'
 selectable = true
 enabled = true
 exclusive = false

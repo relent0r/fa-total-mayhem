@@ -6,9 +6,9 @@ EmitterBlueprint{
 	LocalVelocity = true,
 	LODCutoff = 300.00,
 	SortOrder = 15.00,
-	Texture = [[/mods/TotalMayhem/textures/particles/glow.dds]],
-	RampTexture = [[/mods/TotalMayhem/textures/particles/ramp_yellow_blue_01.dds]],
-	DistortionMapTexture = [[/mods/TotalMayhem/textures/particles/di_0005_55.dds]],
+	Texture = [[/mods/fa-total-mayhem/textures/particles/glow.dds]],
+	RampTexture = [[/mods/fa-total-mayhem/textures/particles/ramp_yellow_blue_01.dds]],
+	DistortionMapTexture = [[/mods/fa-total-mayhem/textures/particles/di_0005_55.dds]],
 	EmitRateCurve = {
 		XRange = 10.0000,
 		Keys = { {

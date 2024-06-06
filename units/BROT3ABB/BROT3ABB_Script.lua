@@ -14,7 +14,7 @@ local AWeapons = import('/lua/aeonweapons.lua')
 local TDFGaussCannonWeapon = WeaponsFile.TDFLandGaussCannonWeapon
 local AAASonicPulseBatteryWeapon = AWeapons.AAASonicPulseBatteryWeapon
 local EffectTemplate = import('/lua/EffectTemplates.lua')
-local TMEffectTemplate = import('/mods/TotalMayhem/lua/TMEffectTemplates.lua')
+local TMEffectTemplate = import('/mods/fa-total-mayhem/lua/TMEffectTemplates.lua')
 local WeaponsFileAutoAttack = import('/lua/terranweapons.lua')
 local AutoAttackWeapon = WeaponsFileAutoAttack.TDFLandGaussCannonWeapon
 

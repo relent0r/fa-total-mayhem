@@ -9,9 +9,9 @@
 -- ****************************************************************************
 
 local TStructureUnit = import('/lua/terranunits.lua').TStructureUnit
-local TMWeaponsFile = import('/mods/TotalMayhem/lua/TMAeonWeapons.lua')
+local TMWeaponsFile = import('/mods/fa-total-mayhem/lua/TMAeonWeapons.lua')
 local TMAmizurabluelaserweapon = TMWeaponsFile.TMAmizurabluelaserweapon
-local TMEffectTemplate = import('/mods/TotalMayhem/lua/TMEffectTemplates.lua')
+local TMEffectTemplate = import('/mods/fa-total-mayhem/lua/TMEffectTemplates.lua')
 
 BROT1EXPD = Class(TStructureUnit){
 	Weapons = {

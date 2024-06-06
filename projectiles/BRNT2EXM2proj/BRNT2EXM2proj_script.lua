@@ -7,7 +7,7 @@
 -- **
 -- **  Copyright � 2007 Gas Powered Games, Inc.  All rights reserved.
 -- ****************************************************************************
-local UefBRNT2EXM2proj = import('/mods/TotalMayhem/lua/TMprojectiles.lua').UefBRNT2EXM2proj
+local UefBRNT2EXM2proj = import('/mods/fa-total-mayhem/lua/TMprojectiles.lua').UefBRNT2EXM2proj
 BRNT2EXM2proj = Class(UefBRNT2EXM2proj){
 	OnCreate = function(self)
 		UefBRNT2EXM2proj.OnCreate(self)

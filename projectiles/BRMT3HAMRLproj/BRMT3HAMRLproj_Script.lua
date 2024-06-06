@@ -7,7 +7,7 @@
 -- **
 -- **  Copyright � 2007 Gas Powered Games, Inc.  All rights reserved.
 -- ****************************************************************************
-local CybBRMT3HAMRLproj = import('/mods/TotalMayhem/lua/TMprojectiles.lua').CybBRMT3HAMRLproj
+local CybBRMT3HAMRLproj = import('/mods/fa-total-mayhem/lua/TMprojectiles.lua').CybBRMT3HAMRLproj
 BRMT3HAMRLproj = Class(CybBRMT3HAMRLproj){}
 
 TypeClass = BRMT3HAMRLproj

@@ -13,7 +13,7 @@ local WeaponsFile = import('/lua/cybranweapons.lua')
 local WeaponsFile2 = import('/lua/terranweapons.lua')
 local TDFGaussCannonWeapon = WeaponsFile2.TDFLandGaussCannonWeapon
 local EffectTemplate = import('/lua/EffectTemplates.lua')
-local TMEffectTemplate = import('/mods/TotalMayhem/lua/TMEffectTemplates.lua')
+local TMEffectTemplate = import('/mods/fa-total-mayhem/lua/TMEffectTemplates.lua')
 local CDFParticleCannonWeapon = WeaponsFile.CDFParticleCannonWeapon
 
 BRMT3ADVBTBOT = Class(CWalkingLandUnit){

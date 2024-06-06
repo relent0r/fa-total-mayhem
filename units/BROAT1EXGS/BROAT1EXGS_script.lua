@@ -14,7 +14,7 @@ local AeonWeapons = import('/lua/aeonweapons.lua')
 local TDFGaussCannonWeapon = WeaponsFile.TDFLandGaussCannonWeapon
 local EffectTemplate = import('/lua/EffectTemplates.lua')
 local AAAZealotMissileWeapon = AeonWeapons.AAAZealotMissileWeapon
-local TMEffectTemplate = import('/mods/TotalMayhem/lua/TMEffectTemplates.lua')
+local TMEffectTemplate = import('/mods/fa-total-mayhem/lua/TMEffectTemplates.lua')
 
 BROAT1EXGS = Class(AAirUnit){
 	Weapons = {

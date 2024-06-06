@@ -7,7 +7,7 @@
 -- **
 -- **  Copyright � 2007 Gas Powered Games, Inc.  All rights reserved.
 -- ****************************************************************************
-local CybranBMRocketProjectile = import('/mods/TotalMayhem/lua/TMprojectiles.lua').CybranBMRocketProjectile
+local CybranBMRocketProjectile = import('/mods/fa-total-mayhem/lua/TMprojectiles.lua').CybranBMRocketProjectile
 CybranBattleMechRockets = Class(CybranBMRocketProjectile){}
 
 TypeClass = CybranBattleMechRockets

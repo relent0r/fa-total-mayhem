@@ -265,7 +265,7 @@ UnitBlueprint{
 		MuzzleSalvoDelay = 0,
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 20,
-		ProjectileId = '/mods/TotalMayhem/projectiles/BRNAT1ADVFIGproj/BRNAT1ADVFIGproj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BRNAT1ADVFIGproj/BRNAT1ADVFIGproj_proj.bp',
 		ProjectileLifetimeUsesMultiplier = 10.85,
 		ProjectilesPerOnFire = 1,
 		RackBones = { {
@@ -346,7 +346,7 @@ UnitBlueprint{
 		MuzzleSalvoDelay = 0,
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 15,
-		ProjectileId = '/mods/TotalMayhem/projectiles/BRNAT1ADVFIGproj/BRNAT1ADVFIGproj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BRNAT1ADVFIGproj/BRNAT1ADVFIGproj_proj.bp',
 		ProjectileLifetimeUsesMultiplier = 6.85,
 		ProjectilesPerOnFire = 1,
 		RackBones = { {
@@ -411,7 +411,7 @@ UnitBlueprint{
 		MuzzleSalvoDelay = 0,
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 140,
-		ProjectileId = '/mods/TotalMayhem/projectiles/NULLWEAPON/NULLWEAPON_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/NULLWEAPON/NULLWEAPON_proj.bp',
 		ProjectileLifetimeUsesMultiplier = 1,
 		ProjectilesPerOnFire = 1,
 		RackBones = { {

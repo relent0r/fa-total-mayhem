@@ -14,7 +14,7 @@ local AWeaponsFile = import('/lua/aeonweapons.lua')
 local ACruiseMissileWeapon = AWeaponsFile.ACruiseMissileWeapon
 local TDFGaussCannonWeapon = WeaponsFile.TDFLandGaussCannonWeapon
 local EffectTemplate = import('/lua/EffectTemplates.lua')
-local TMEffectTemplate = import('/mods/TotalMayhem/lua/TMEffectTemplates.lua')
+local TMEffectTemplate = import('/mods/fa-total-mayhem/lua/TMEffectTemplates.lua')
 
 BRNT2EXM2 = Class(TLandUnit){
 	Weapons = {

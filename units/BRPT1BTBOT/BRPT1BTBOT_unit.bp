@@ -86,19 +86,19 @@ UnitBlueprint{
 	Display = {
 		Abilities = { '<LOC ability_amphibious>Amphibious', '<LOC ability_aa>Anti-Air', '<LOC ability_massive>Massive' },
 		AnimationDeath = { {
-			Animation = '/mods/TotalMayhem/units/BRPT1BTBOT/BRPT1BTBOT_Death1.sca',
+			Animation = '/mods/fa-total-mayhem/units/BRPT1BTBOT/BRPT1BTBOT_Death1.sca',
 			AnimationRateMax = 1.97,
 			AnimationRateMin = 1.97,
 			Weight = 100,
 		} },
-		AnimationWalk = '/mods/TotalMayhem/units/BRPT1BTBOT/BRPT1BTBOT_Walk.sca',
+		AnimationWalk = '/mods/fa-total-mayhem/units/BRPT1BTBOT/BRPT1BTBOT_Walk.sca',
 		AnimationWalkRate = 3.1,
 		Mesh = {
 			IconFadeInZoom = 130,
 			LODs = { {
-				SpecularName = '/mods/TotalMayhem/Units/SeraphimTexture/SeraphimTexture_SpecTeam.dds',
-				AlbedoName = '/mods/TotalMayhem/Units/SeraphimTexture/SeraphimTexture_Albedo.dds',
-				NormalsName = '/mods/TotalMayhem/Units/SeraphimTexture/SeraphimTexture_NormalsTS.dds',
+				SpecularName = '/mods/fa-total-mayhem/Units/SeraphimTexture/SeraphimTexture_SpecTeam.dds',
+				AlbedoName = '/mods/fa-total-mayhem/Units/SeraphimTexture/SeraphimTexture_Albedo.dds',
+				NormalsName = '/mods/fa-total-mayhem/Units/SeraphimTexture/SeraphimTexture_NormalsTS.dds',
 				LODCutoff = 500,
 				LookupName = '/textures/environment/Falloff_seraphim_lookup.dds',
 				Scrolling = true,
@@ -401,7 +401,7 @@ UnitBlueprint{
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 40,
 		PrefersPrimaryWeaponTarget = true,
-		ProjectileId = '/mods/TotalMayhem/projectiles/NULLWEAPON/NULLWEAPON_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/NULLWEAPON/NULLWEAPON_proj.bp',
 		ProjectileLifetimeUsesMultiplier = 1,
 		ProjectilesPerOnFire = 1,
 		RackBones = { {

@@ -7,7 +7,7 @@
 -- **
 -- **  Copyright � 2007 Gas Powered Games, Inc.  All rights reserved.
 -- ****************************************************************************
-local AeonT3SHPDproj = import('/mods/TotalMayhem/lua/TMprojectiles.lua').AeonT3SHPDproj
+local AeonT3SHPDproj = import('/mods/fa-total-mayhem/lua/TMprojectiles.lua').AeonT3SHPDproj
 BROT3SHPDproj = Class(AeonT3SHPDproj){}
 
 TypeClass = BROT3SHPDproj

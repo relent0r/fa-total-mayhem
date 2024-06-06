@@ -2,16 +2,16 @@
 -- Terran Fragmentation/Sensor Shells
 --
 
-local TMEffectTemplate = import('/mods/TotalMayhem/lua/TMEffectTemplates.lua')
+local TMEffectTemplate = import('/mods/fa-total-mayhem/lua/TMEffectTemplates.lua')
 local EffectTemplate = import('/lua/EffectTemplates.lua')
 local TArtilleryProjectile = import('/lua/terranprojectiles.lua').TArtilleryProjectile
-local AeonBROT1EXMOBARTproj = import('/mods/TotalMayhem/lua/TMprojectiles.lua').AeonBROT1EXMOBARTproj
+local AeonBROT1EXMOBARTproj = import('/mods/fa-total-mayhem/lua/TMprojectiles.lua').AeonBROT1EXMOBARTproj
 local RandomFloat = import('/lua/utilities.lua').GetRandomFloat
 local VizMarker = import('/lua/sim/VizMarker.lua').VizMarker
 
 BROT1EXMOBARTproj = Class(AeonBROT1EXMOBARTproj){ OnImpact = function(self, TargetType, TargetEntity)
 	local FxFragEffect = TMEffectTemplate.AeonUnitDeathRing02
-	local ChildProjectileBP = '/mods/TotalMayhem/projectiles/BROT1EXMOBART2proj/BROT1EXMOBART2proj_proj.bp'
+	local ChildProjectileBP = '/mods/fa-total-mayhem/projectiles/BROT1EXMOBART2proj/BROT1EXMOBART2proj_proj.bp'
 
 	-- Split effects
 	for k, v in FxFragEffect do

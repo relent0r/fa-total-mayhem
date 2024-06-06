@@ -81,12 +81,12 @@ UnitBlueprint{
 	Display = {
 		Abilities = { '<LOC ability_aa>Anti-Air', '<LOC ability_radar>Radar', '<LOC ability_sonar>Sonar' },
 		AnimationDeath = { {
-			Animation = '/mods/TotalMayhem/units/BRNST1ARTILLERY/BRNST1ARTILLERY_death.sca',
+			Animation = '/mods/fa-total-mayhem/units/BRNST1ARTILLERY/BRNST1ARTILLERY_death.sca',
 			AnimationRateMax = 0.1,
 			AnimationRateMin = 0.1,
 			Weight = 30,
 		}, {
-			Animation = '/mods/TotalMayhem/units/BRNST1ARTILLERY/BRNST1ARTILLERY_death2.sca',
+			Animation = '/mods/fa-total-mayhem/units/BRNST1ARTILLERY/BRNST1ARTILLERY_death2.sca',
 			AnimationRateMax = 0.1,
 			AnimationRateMin = 0.1,
 			Weight = 30,
@@ -250,7 +250,7 @@ UnitBlueprint{
 		MuzzleSalvoDelay = 0,
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 25,
-		ProjectileId = '/mods/TotalMayhem/projectiles/BRNT2BTproj/BRNT2BTproj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BRNT2BTproj/BRNT2BTproj_proj.bp',
 		ProjectilesPerOnFire = 2,
 		RackBones = { {
 			MuzzleBones = { 'muzzle07', 'muzzle08' },
@@ -316,7 +316,7 @@ UnitBlueprint{
 		MuzzleSalvoDelay = 0,
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 25,
-		ProjectileId = '/mods/TotalMayhem/projectiles/BRNT2BTproj/BRNT2BTproj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BRNT2BTproj/BRNT2BTproj_proj.bp',
 		ProjectilesPerOnFire = 2,
 		RackBones = { {
 			MuzzleBones = { 'muzzle05', 'muzzle06' },
@@ -382,7 +382,7 @@ UnitBlueprint{
 		MuzzleSalvoDelay = 0,
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 25,
-		ProjectileId = '/mods/TotalMayhem/projectiles/BRNT2BTproj/BRNT2BTproj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BRNT2BTproj/BRNT2BTproj_proj.bp',
 		ProjectilesPerOnFire = 2,
 		RackBones = { {
 			MuzzleBones = { 'muzzle04', 'muzzle03' },
@@ -448,7 +448,7 @@ UnitBlueprint{
 		MuzzleSalvoDelay = 0,
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 25,
-		ProjectileId = '/mods/TotalMayhem/projectiles/BRNT2BTproj/BRNT2BTproj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BRNT2BTproj/BRNT2BTproj_proj.bp',
 		ProjectilesPerOnFire = 2,
 		RackBones = { {
 			MuzzleBones = { 'muzzle01', 'muzzle02' },
@@ -572,7 +572,7 @@ UnitBlueprint{
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 40,
 		PrefersPrimaryWeaponTarget = true,
-		ProjectileId = '/mods/TotalMayhem/projectiles/NULLWEAPON/NULLWEAPON_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/NULLWEAPON/NULLWEAPON_proj.bp',
 		ProjectileLifetimeUsesMultiplier = 1,
 		ProjectilesPerOnFire = 1,
 		RackBones = { {

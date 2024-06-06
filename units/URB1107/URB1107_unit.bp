@@ -60,7 +60,7 @@ UnitBlueprint{
 	Description = '<LOC urb1107_desc>Hydroelectric Power Generator',
 	Display = {
 		Abilities = { 'Naval' },
-		AnimationOpen = '/Mods/TotalMayhem/units/urb1107/urb1107_Apump.sca',
+		AnimationOpen = '/mods/fa-total-mayhem/units/urb1107/urb1107_Apump.sca',
 		Mesh = {
 			IconFadeInZoom = 130,
 			LODs = { {

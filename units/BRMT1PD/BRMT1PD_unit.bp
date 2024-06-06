@@ -197,7 +197,7 @@ UnitBlueprint{
 		MuzzleSalvoDelay = 0.1,
 		MuzzleSalvoSize = 3,
 		MuzzleVelocity = 30,
-		ProjectileId = '/mods/TotalMayhem/projectiles/BRMT1EXM1proj/BRMT1EXM1proj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BRMT1EXM1proj/BRMT1EXM1proj_proj.bp',
 		ProjectileLifetimeUsesMultiplier = 1.5,
 		ProjectilesPerOnFire = 1,
 		RackBones = { {

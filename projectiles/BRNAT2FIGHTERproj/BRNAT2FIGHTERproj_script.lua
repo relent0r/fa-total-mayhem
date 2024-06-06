@@ -1,4 +1,4 @@
-local UefBRNAT2FIGHTERproj = import('/mods/TotalMayhem/lua/TMavaprojectiles.lua').UefBRNAT2FIGHTERproj
+local UefBRNAT2FIGHTERproj = import('/mods/fa-total-mayhem/lua/TMavaprojectiles.lua').UefBRNAT2FIGHTERproj
 BRNAT2FIGHTERproj = Class(UefBRNAT2FIGHTERproj){
 	OnCreate = function(self)
 		UefBRNAT2FIGHTERproj.OnCreate(self)

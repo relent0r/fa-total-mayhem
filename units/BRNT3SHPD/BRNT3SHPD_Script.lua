@@ -14,7 +14,7 @@ local WeaponsFile = import('/lua/terranweapons.lua')
 local EffectTemplate = import('/lua/EffectTemplates.lua')
 local SCUDeathWeapon = import('/lua/sim/defaultweapons.lua').SCUDeathWeapon
 local TSAMLauncher = WeaponsFile.TSAMLauncher
-local TMMMEffectTemplate = import('/mods/TotalMayhem/lua/TMavaEffectTemplates.lua')
+local TMMMEffectTemplate = import('/mods/fa-total-mayhem/lua/TMavaEffectTemplates.lua')
 
 BRNT3SHPD = Class(TStructureUnit){
 	Weapons = {

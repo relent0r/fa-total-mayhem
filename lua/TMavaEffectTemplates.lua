@@ -1,7 +1,7 @@
 -- ****************************************************************************
 EmtBpPath = '/effects/emitters/'
-EmtBpPathAlt = '/mods/TotalMayhem/effects/emitters/'
-EmtBpPathTM = '/mods/TotalMayhem/effects/emitters/'
+EmtBpPathAlt = '/mods/fa-total-mayhem/effects/emitters/'
+EmtBpPathTM = '/mods/fa-total-mayhem/effects/emitters/'
 EmitterTempEmtBpPath = '/effects/emitters/temp/'
 
 PrideFlyingEmitter =

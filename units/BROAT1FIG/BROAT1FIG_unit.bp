@@ -265,7 +265,7 @@ UnitBlueprint{
 		MuzzleSalvoSize = 4,
 		MuzzleVelocity = 95,
 		PrefersPrimaryWeaponTarget = true,
-		ProjectileId = '/mods/TotalMayhem/projectiles/BROAT1FIGproj/BROAT1FIGproj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BROAT1FIGproj/BROAT1FIGproj_proj.bp',
 		ProjectileLifetime = 5.3,
 		ProjectilesPerOnFire = 4,
 		RackBones = { {
@@ -302,7 +302,7 @@ UnitBlueprint{
 		UseFiringSolutionInsteadOfAimBone = true,
 		WeaponCategory = 'Anti Air',
 		WeaponRepackTimeout = 3,
-		WeaponUnpackAnimation = '/mods/TotalMayhem/units/BROAT1FIG/BROAT1FIG_deploy.sca',
+		WeaponUnpackAnimation = '/mods/fa-total-mayhem/units/BROAT1FIG/BROAT1FIG_deploy.sca',
 		WeaponUnpackAnimationRate = 5.0,
 		WeaponUnpackLocksMotion = false,
 		WeaponUnpacks = true,
@@ -333,7 +333,7 @@ UnitBlueprint{
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 140,
 		PrefersPrimaryWeaponTarget = true,
-		ProjectileId = '/mods/TotalMayhem/projectiles/NULLWEAPON/NULLWEAPON_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/NULLWEAPON/NULLWEAPON_proj.bp',
 		ProjectileLifetimeUsesMultiplier = 1,
 		ProjectilesPerOnFire = 1,
 		RackBones = { {

@@ -64,9 +64,9 @@ UnitBlueprint{
 			LODs = { {
 				LODCutoff = 200,
 				ShaderName = 'Unit',
-				AlbedoName = '/Mods/TotalMayhem/units/BRNT1HPD/BRNT1HPD_Albedo.dds',
-				NormalsName = '/Mods/TotalMayhem/units/BRNT1HPD/BRNT1HPD_NormalsTS.DDS',
-				SpecularName = '/Mods/TotalMayhem/units/BRNT1HPD/BRNT1HPD_SpecTeam.dds',
+				AlbedoName = '/mods/fa-total-mayhem/units/BRNT1HPD/BRNT1HPD_Albedo.dds',
+				NormalsName = '/mods/fa-total-mayhem/units/BRNT1HPD/BRNT1HPD_NormalsTS.DDS',
+				SpecularName = '/mods/fa-total-mayhem/units/BRNT1HPD/BRNT1HPD_SpecTeam.dds',
 			} },
 		},
 		PlaceholderMeshName = 'UXB0003',
@@ -209,7 +209,7 @@ UnitBlueprint{
 		MuzzleSalvoDelay = 0,
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 30,
-		ProjectileId = '/mods/TotalMayhem/projectiles/BRNT1BTproj/BRNT1BTproj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BRNT1BTproj/BRNT1BTproj_proj.bp',
 		ProjectileLifetimeUsesMultiplier = 4.15,
 		ProjectilesPerOnFire = 2,
 		RackBones = { {

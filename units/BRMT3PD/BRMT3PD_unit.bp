@@ -60,7 +60,7 @@ UnitBlueprint{
 		Mesh = {
 			IconFadeInZoom = 130,
 			LODs = { {
-				AlbedoName = '/mods/TotalMayhem/units/CybranTexture/CybranTexture_albedo.dds',
+				AlbedoName = '/mods/fa-total-mayhem/units/CybranTexture/CybranTexture_albedo.dds',
 				LODCutoff = 270,
 				ShaderName = 'Unit',
 			} },
@@ -207,7 +207,7 @@ UnitBlueprint{
 		MuzzleSalvoDelay = 0,
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 45,
-		ProjectileId = '/mods/TotalMayhem/projectiles/BRMT3PDproj/BRMT3PDproj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BRMT3PDproj/BRMT3PDproj_proj.bp',
 		ProjectileLifetimeUsesMultiplier = 3,
 		ProjectilesPerOnFire = 1,
 		RackBones = { {

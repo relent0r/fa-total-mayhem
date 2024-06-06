@@ -195,7 +195,7 @@ UnitBlueprint{
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 70,
 		NoPause = true,
-		ProjectileId = '/mods/TotalMayhem/projectiles/BRNT2EPDproj/BRNT2EPDproj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BRNT2EPDproj/BRNT2EPDproj_proj.bp',
 		ProjectileLifetimeUsesMultiplier = 2,
 		ProjectilesPerOnFire = 1,
 		RackBones = { {

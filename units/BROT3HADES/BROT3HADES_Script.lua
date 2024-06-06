@@ -10,14 +10,14 @@
 local AWalkingLandUnit = import('/lua/aeonunits.lua').AWalkingLandUnit
 local WeaponsFile = import('/lua/terranweapons.lua')
 local AWeapons = import('/lua/aeonweapons.lua')
-local TMWeaponsFile = import('/mods/TotalMayhem/lua/TMAeonWeapons.lua')
+local TMWeaponsFile = import('/mods/fa-total-mayhem/lua/TMAeonWeapons.lua')
 local TMAnovacatbluelaserweapon = TMWeaponsFile.TMAnovacatbluelaserweapon
 local SCUDeathWeapon = import('/lua/sim/defaultweapons.lua').SCUDeathWeapon
 local TDFGaussCannonWeapon = WeaponsFile.TDFLandGaussCannonWeapon
 local ADFCannonOblivionWeapon = AWeapons.ADFCannonOblivionWeapon
 local AAAZealotMissileWeapon = AWeapons.AAAZealotMissileWeapon
 local EffectTemplate = import('/lua/EffectTemplates.lua')
-local TMEffectTemplate = import('/mods/TotalMayhem/lua/TMEffectTemplates.lua')
+local TMEffectTemplate = import('/mods/fa-total-mayhem/lua/TMEffectTemplates.lua')
 local AANChronoTorpedoWeapon = AWeapons.AANChronoTorpedoWeapon
 
 BROT3HADES = Class(AWalkingLandUnit){

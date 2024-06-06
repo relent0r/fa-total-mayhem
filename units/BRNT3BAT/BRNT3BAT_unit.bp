@@ -352,7 +352,7 @@ UnitBlueprint{
 		MuzzleSalvoDelay = 0.5,
 		MuzzleSalvoSize = 4,
 		MuzzleVelocity = 3,
-		ProjectileId = '/mods/TotalMayhem/projectiles/BRNT2EXM2proj/BRNT2EXM2proj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BRNT2EXM2proj/BRNT2EXM2proj_proj.bp',
 		ProjectileLifetimeUsesMultiplier = 55,
 		ProjectilesPerOnFire = 1,
 		RackBones = { {
@@ -395,7 +395,7 @@ UnitBlueprint{
 		Turreted = false,
 		WeaponCategory = 'Missile',
 		WeaponRepackTimeout = 0,
-		WeaponUnpackAnimation = '/mods/TotalMayhem/units/BRNT3BAT/BRNT3BAT_Deploy.sca',
+		WeaponUnpackAnimation = '/mods/fa-total-mayhem/units/BRNT3BAT/BRNT3BAT_Deploy.sca',
 		WeaponUnpackAnimationRate = 1,
 		WeaponUnpackLocksMotion = false,
 		WeaponUnpacks = true,
@@ -674,7 +674,7 @@ UnitBlueprint{
 		MuzzleSalvoDelay = 0,
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 50,
-		ProjectileId = '/mods/TotalMayhem/projectiles/BRNT3MOBproj/BRNT3MOBproj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BRNT3MOBproj/BRNT3MOBproj_proj.bp',
 		ProjectileLifetimeUsesMultiplier = 5,
 		ProjectilesPerOnFire = 1,
 		RackBones = { {
@@ -750,7 +750,7 @@ UnitBlueprint{
 		MuzzleSalvoDelay = 0,
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 30,
-		ProjectileId = '/mods/TotalMayhem/projectiles/BRNT3BTproj/BRNT3BTproj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BRNT3BTproj/BRNT3BTproj_proj.bp',
 		ProjectileLifetimeUsesMultiplier = 5,
 		ProjectilesPerOnFire = 1,
 		RackBones = { {
@@ -840,7 +840,7 @@ UnitBlueprint{
 		MuzzleSalvoDelay = 0,
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 30,
-		ProjectileId = '/mods/TotalMayhem/projectiles/BRNT3BTproj/BRNT3BTproj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BRNT3BTproj/BRNT3BTproj_proj.bp',
 		ProjectileLifetimeUsesMultiplier = 5,
 		ProjectilesPerOnFire = 1,
 		RackBones = { {
@@ -911,7 +911,7 @@ UnitBlueprint{
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 40,
 		PrefersPrimaryWeaponTarget = true,
-		ProjectileId = '/mods/TotalMayhem/projectiles/NULLWEAPON/NULLWEAPON_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/NULLWEAPON/NULLWEAPON_proj.bp',
 		ProjectileLifetimeUsesMultiplier = 1,
 		ProjectilesPerOnFire = 1,
 		RackBones = { {

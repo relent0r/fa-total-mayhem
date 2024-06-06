@@ -5,10 +5,10 @@ local DefaultProjectileWeapon = WeaponFile.DefaultProjectileWeapon
 local DefaultBeamWeapon = WeaponFile.DefaultBeamWeapon
 
 local CollisionBeamFile = import('/lua/defaultcollisionbeams.lua')
-local TMCollisionBeamFile = import('/mods/TotalMayhem/lua/TMcollisionbeams.lua')
+local TMCollisionBeamFile = import('/mods/fa-total-mayhem/lua/TMcollisionbeams.lua')
 local Explosion = import('/lua/defaultexplosions.lua')
 local EffectTemplate = import('/lua/EffectTemplates.lua')
-local TMEffectTemplate = import('/mods/TotalMayhem/lua/TMEffectTemplates.lua')
+local TMEffectTemplate = import('/mods/fa-total-mayhem/lua/TMEffectTemplates.lua')
 local Util = import('/lua/utilities.lua')
 local TMNovaCatBlueLaserBeam = TMCollisionBeamFile.TMNovaCatBlueLaserBeam
 local TMNovaCatGreenLaserBeam = TMCollisionBeamFile.TMNovaCatGreenLaserBeam

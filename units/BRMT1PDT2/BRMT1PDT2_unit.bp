@@ -63,9 +63,9 @@ UnitBlueprint{
 			IconFadeInZoom = 130,
 			LODs = { {
 				LODCutoff = 220,
-				AlbedoName = '/mods/TotalMayhem/Units/BRMT1PD/BRMT1PD_Albedo.dds',
-				NormalsName = '/mods/TotalMayhem/Units/BRMT1PD/BRMT1PD_NormalsTS.DDS',
-				SpecularName = '/mods/TotalMayhem/Units/BRMT1PD/BRMT1PD_SpecTeam.dds',
+				AlbedoName = '/mods/fa-total-mayhem/Units/BRMT1PD/BRMT1PD_Albedo.dds',
+				NormalsName = '/mods/fa-total-mayhem/Units/BRMT1PD/BRMT1PD_NormalsTS.DDS',
+				SpecularName = '/mods/fa-total-mayhem/Units/BRMT1PD/BRMT1PD_SpecTeam.dds',
 				ShaderName = 'Unit',
 			} },
 		},
@@ -202,7 +202,7 @@ UnitBlueprint{
 		MuzzleSalvoDelay = 0,
 		MuzzleSalvoSize = 3,
 		MuzzleVelocity = 30,
-		ProjectileId = '/mods/TotalMayhem/projectiles/BRMT1EXM1proj/BRMT1EXM1proj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BRMT1EXM1proj/BRMT1EXM1proj_proj.bp',
 		ProjectileLifetimeUsesMultiplier = 1.5,
 		ProjectilesPerOnFire = 3,
 		RackBones = { {

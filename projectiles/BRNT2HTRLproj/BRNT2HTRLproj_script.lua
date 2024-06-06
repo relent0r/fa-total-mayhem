@@ -7,7 +7,7 @@
 -- **
 -- **  Copyright � 2007 Gas Powered Games, Inc.  All rights reserved.
 -- ****************************************************************************
-local UefBRNT2HTRLproj = import('/mods/TotalMayhem/lua/TMprojectiles.lua').UefBRNT2HTRLproj
+local UefBRNT2HTRLproj = import('/mods/fa-total-mayhem/lua/TMprojectiles.lua').UefBRNT2HTRLproj
 BRNT2HTRLproj = Class(UefBRNT2HTRLproj){}
 
 TypeClass = BRNT2HTRLproj

@@ -88,7 +88,7 @@ UnitBlueprint{
 		RegenRate = 10,
 		Shield = {
 			ImpactEffects = 'AeonShieldHit01',
-			OwnerShieldMesh = '/mods/TotalMayhem/units/BROT3ABB/BROT3ABB_personalshield_mesh',
+			OwnerShieldMesh = '/mods/fa-total-mayhem/units/BROT3ABB/BROT3ABB_personalshield_mesh',
 			PersonalShield = true,
 			RegenAssistMult = 60,
 			ShieldEnergyDrainRechargeTime = 5,
@@ -111,10 +111,10 @@ UnitBlueprint{
 			'<LOC ability_massive>Massive',
 		},
 		AnimationDeath = { {
-			Animation = '/mods/TotalMayhem/units/BROT3ABB/BROT3ABB_Death.sca',
+			Animation = '/mods/fa-total-mayhem/units/BROT3ABB/BROT3ABB_Death.sca',
 			Weight = 170,
 		} },
-		AnimationWalk = '/mods/TotalMayhem/units/BROT3ABB/BROT3ABB_Walk.sca',
+		AnimationWalk = '/mods/fa-total-mayhem/units/BROT3ABB/BROT3ABB_Walk.sca',
 		AnimationWalkRate = 3.5,
 		Mesh = {
 			IconFadeInZoom = 130,
@@ -282,7 +282,7 @@ UnitBlueprint{
 		MuzzleSalvoSize = 2,
 		MuzzleVelocity = 75,
 		PrefersPrimaryWeaponTarget = true,
-		ProjectileId = '/mods/TotalMayhem/projectiles/BROT3ABBproj/BROT3ABBproj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BROT3ABBproj/BROT3ABBproj_proj.bp',
 		ProjectileLifetime = 3.3,
 		ProjectilesPerOnFire = 2,
 		RackBones = { {
@@ -400,7 +400,7 @@ UnitBlueprint{
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 40,
 		PrefersPrimaryWeaponTarget = true,
-		ProjectileId = '/mods/TotalMayhem/projectiles/NULLWEAPON/NULLWEAPON_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/NULLWEAPON/NULLWEAPON_proj.bp',
 		ProjectileLifetimeUsesMultiplier = 1,
 		ProjectilesPerOnFire = 1,
 		RackBones = { {

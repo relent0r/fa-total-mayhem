@@ -18,7 +18,7 @@ local SCUDeathWeapon = import('/lua/sim/defaultweapons.lua').SCUDeathWeapon
 local TDFGaussCannonWeapon = WeaponsFile2.TDFLandGaussCannonWeapon
 local EffectTemplate = import('/lua/EffectTemplates.lua')
 local RobotTalkFile = import('/lua/cybranweapons.lua')
-local TMEffectTemplate = import('/mods/TotalMayhem/lua/TMEffectTemplates.lua')
+local TMEffectTemplate = import('/mods/fa-total-mayhem/lua/TMEffectTemplates.lua')
 local CIFGrenadeWeapon = RobotTalkFile.CIFGrenadeWeapon
 
 BRMT3MCM2 = Class(CWalkingLandUnit){

@@ -18,7 +18,7 @@ local TDFGaussCannonWeapon = WeaponsFile2.TDFLandGaussCannonWeapon
 local EffectTemplate = import('/lua/EffectTemplates.lua')
 local Effects = import('/lua/EffectTemplates.lua')
 local EffectUtils = import('/lua/effectutilities.lua')
-local TMEffectTemplate = import('/mods/TotalMayhem/lua/TMEffectTemplates.lua')
+local TMEffectTemplate = import('/mods/fa-total-mayhem/lua/TMEffectTemplates.lua')
 
 BRMT2WILDCAT = Class(CWalkingLandUnit){
 	Weapons = {

@@ -103,10 +103,10 @@ UnitBlueprint{
 			'<LOC ability_massive>Massive',
 		},
 		AnimationDeath = { {
-			Animation = '/mods/TotalMayhem/units/BRNT3BLASP/BRNT3BLASP_Death.sca',
+			Animation = '/mods/fa-total-mayhem/units/BRNT3BLASP/BRNT3BLASP_Death.sca',
 			Weight = 100,
 		} },
-		AnimationWalk = '/mods/TotalMayhem/units/BRNT3BLASP/BRNT3BLASP_Walk.sca',
+		AnimationWalk = '/mods/fa-total-mayhem/units/BRNT3BLASP/BRNT3BLASP_Walk.sca',
 		AnimationWalkRate = 1.9,
 		Mesh = {
 			IconFadeInZoom = 130,
@@ -440,7 +440,7 @@ UnitBlueprint{
 		MuzzleSalvoSize = 10,
 		MuzzleVelocity = 75,
 		PrefersPrimaryWeaponTarget = true,
-		ProjectileId = '/mods/TotalMayhem/projectiles/BRNT3MLproj/BRNT3MLproj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BRNT3MLproj/BRNT3MLproj_proj.bp',
 		ProjectileLifetimeUsesMultiplier = 3,
 		ProjectilesPerOnFire = 10,
 		RackBones = { {
@@ -701,7 +701,7 @@ UnitBlueprint{
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 70,
 		PrefersPrimaryWeaponTarget = true,
-		ProjectileId = '/mods/TotalMayhem/projectiles/BRNT3BLASPproj/BRNT3BLASPproj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BRNT3BLASPproj/BRNT3BLASPproj_proj.bp',
 		ProjectileLifetimeUsesMultiplier = 5,
 		ProjectilesPerOnFire = 1,
 		RackBones = { {
@@ -791,7 +791,7 @@ UnitBlueprint{
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 70,
 		PrefersPrimaryWeaponTarget = true,
-		ProjectileId = '/mods/TotalMayhem/projectiles/BRNT3BLASPproj/BRNT3BLASPproj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BRNT3BLASPproj/BRNT3BLASPproj_proj.bp',
 		ProjectileLifetimeUsesMultiplier = 5,
 		ProjectilesPerOnFire = 1,
 		RackBones = { {
@@ -865,7 +865,7 @@ UnitBlueprint{
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 40,
 		PrefersPrimaryWeaponTarget = true,
-		ProjectileId = '/mods/TotalMayhem/projectiles/NULLWEAPON/NULLWEAPON_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/NULLWEAPON/NULLWEAPON_proj.bp',
 		ProjectileLifetimeUsesMultiplier = 1,
 		ProjectilesPerOnFire = 1,
 		RackBones = { {

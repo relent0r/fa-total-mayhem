@@ -24,11 +24,11 @@ ProjectileBlueprint{
 		},
 		Mesh = {
 			LODs = { {
-				AlbedoName = '/mods/TotalMayhem/units/BRMT1ADVBOT/BRMT1ADVBOT_Albedo.dds',
+				AlbedoName = '/mods/fa-total-mayhem/units/BRMT1ADVBOT/BRMT1ADVBOT_Albedo.dds',
 				LODCutoff = 150,
-				MeshName = '/mods/TotalMayhem/units/BRMT1ADVBOT/BRMT1ADVBOTMISSILE_LOD0.scm',
-				NormalsName = '/mods/TotalMayhem/units/BRMT1ADVBOT/BRMT1ADVBOT_NormalsTS.DDS',
-				SpecularName = '/mods/TotalMayhem/units/BRMT1ADVBOT/BRMT1ADVBOT_SpecTeam.dds',
+				MeshName = '/mods/fa-total-mayhem/units/BRMT1ADVBOT/BRMT1ADVBOTMISSILE_LOD0.scm',
+				NormalsName = '/mods/fa-total-mayhem/units/BRMT1ADVBOT/BRMT1ADVBOT_NormalsTS.DDS',
+				SpecularName = '/mods/fa-total-mayhem/units/BRMT1ADVBOT/BRMT1ADVBOT_SpecTeam.dds',
 				ShaderName = 'Insect',
 			} },
 		},

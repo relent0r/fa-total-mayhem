@@ -72,12 +72,12 @@ UnitBlueprint{
 	Display = {
 		Abilities = { '<LOC ability_radar>Radar' },
 		AnimationDeath = { {
-			Animation = '/mods/TotalMayhem/units/BRPT3BT/BRPT3BT_death.sca',
+			Animation = '/mods/fa-total-mayhem/units/BRPT3BT/BRPT3BT_death.sca',
 			AnimationRateMax = 1.97,
 			AnimationRateMin = 1.97,
 			Weight = 100,
 		}, {
-			Animation = '/mods/TotalMayhem/units/BRPT3BT/BRPT3BT_death2.sca',
+			Animation = '/mods/fa-total-mayhem/units/BRPT3BT/BRPT3BT_death2.sca',
 			AnimationRateMax = 1.97,
 			AnimationRateMin = 1.97,
 			Weight = 100,
@@ -312,7 +312,7 @@ UnitBlueprint{
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 40,
 		PrefersPrimaryWeaponTarget = true,
-		ProjectileId = '/mods/TotalMayhem/projectiles/NULLWEAPON/NULLWEAPON_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/NULLWEAPON/NULLWEAPON_proj.bp',
 		ProjectileLifetimeUsesMultiplier = 1,
 		ProjectilesPerOnFire = 1,
 		RackBones = { {

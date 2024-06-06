@@ -66,7 +66,7 @@ UnitBlueprint{
 	Description = '<LOC xsb1108_desc>Naval Mass Rig',
 	Display = {
 		Abilities = { 'Naval' },
-		AnimationActivate = '/Mods/TotalMayhem/units/XSB1108/XSB1108_apump.sca',
+		AnimationActivate = '/mods/fa-total-mayhem/units/XSB1108/XSB1108_apump.sca',
 		AnimationDeath = { {
 			Animation = '/units/xsb1103/xsb1103_ADeath.sca',
 			AnimationRateMax = 1,

@@ -72,12 +72,12 @@ UnitBlueprint{
 	Display = {
 		Abilities = { 'Indirectfire' },
 		AnimationDeath = { {
-			Animation = '/mods/TotalMayhem/units/BRPT3ML/BRPT3ML_death.sca',
+			Animation = '/mods/fa-total-mayhem/units/BRPT3ML/BRPT3ML_death.sca',
 			AnimationRateMax = 1.97,
 			AnimationRateMin = 1.97,
 			Weight = 100,
 		} },
-		AnimationWalk = '/mods/TotalMayhem/units/BRPT3ML/BRPT3ML_walk.sca',
+		AnimationWalk = '/mods/fa-total-mayhem/units/BRPT3ML/BRPT3ML_walk.sca',
 		AnimationWalkRate = 4.75,
 		Mesh = {
 			IconFadeInZoom = 130,
@@ -217,7 +217,7 @@ UnitBlueprint{
 		MuzzleSalvoDelay = 0,
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 23,
-		ProjectileId = '/mods/TotalMayhem/projectiles/BRPT1EXTANK2proj/BRPT1EXTANK2proj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BRPT1EXTANK2proj/BRPT1EXTANK2proj_proj.bp',
 		ProjectileLifetimeUsesMultiplier = 15,
 		ProjectilesPerOnFire = 1,
 		RackBones = { {
@@ -281,7 +281,7 @@ UnitBlueprint{
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 40,
 		PrefersPrimaryWeaponTarget = true,
-		ProjectileId = '/mods/TotalMayhem/projectiles/NULLWEAPON/NULLWEAPON_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/NULLWEAPON/NULLWEAPON_proj.bp',
 		ProjectileLifetimeUsesMultiplier = 1,
 		ProjectilesPerOnFire = 1,
 		RackBones = { {

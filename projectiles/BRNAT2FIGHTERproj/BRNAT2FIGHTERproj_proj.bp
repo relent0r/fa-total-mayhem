@@ -20,11 +20,11 @@ ProjectileBlueprint{
 	Display = {
 		Mesh = {
 			LODs = { {
-				AlbedoName = '/mods/TotalMayhem/units/BRNAT2FIGHTER/BRNAT2FIGHTER_Albedo.dds',
+				AlbedoName = '/mods/fa-total-mayhem/units/BRNAT2FIGHTER/BRNAT2FIGHTER_Albedo.dds',
 				LODCutoff = 150,
-				MeshName = '/mods/TotalMayhem/units/BRNAT2FIGHTER/BRNAT2FIGHTERMISSILE_LOD0.scm',
-				NormalsName = '/mods/TotalMayhem/units/BRNAT2FIGHTER/BRNAT2FIGHTER_NormalsTS.DDS',
-				SpecularName = '/mods/TotalMayhem/units/BRNAT2FIGHTER/BRNAT2FIGHTER_SpecTeam.dds',
+				MeshName = '/mods/fa-total-mayhem/units/BRNAT2FIGHTER/BRNAT2FIGHTERMISSILE_LOD0.scm',
+				NormalsName = '/mods/fa-total-mayhem/units/BRNAT2FIGHTER/BRNAT2FIGHTER_NormalsTS.DDS',
+				SpecularName = '/mods/fa-total-mayhem/units/BRNAT2FIGHTER/BRNAT2FIGHTER_SpecTeam.dds',
 				ShaderName = 'TMeshAlpha',
 			} },
 		},

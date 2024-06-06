@@ -14,7 +14,7 @@ local CybranWeaponsFile = import('/lua/cybranweapons.lua')
 local CAAMissileNaniteWeapon = CybranWeaponsFile.CAAMissileNaniteWeapon
 local CDFHeavyMicrowaveLaserGeneratorCom = CybranWeaponsFile.CDFHeavyMicrowaveLaserGeneratorCom
 local TDFGaussCannonWeapon = WeaponsFile.TDFLandGaussCannonWeapon
-local TMEffectTemplate = import('/mods/TotalMayhem/lua/TMEffectTemplates.lua')
+local TMEffectTemplate = import('/mods/fa-total-mayhem/lua/TMEffectTemplates.lua')
 local util = import('/lua/utilities.lua')
 local fxutil = import('/lua/effectutilities.lua')
 

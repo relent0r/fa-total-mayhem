@@ -2,16 +2,16 @@
 -- Terran Fragmentation/Sensor Shells
 --
 
-local TMEffectTemplate = import('/mods/TotalMayhem/lua/TMEffectTemplates.lua')
+local TMEffectTemplate = import('/mods/fa-total-mayhem/lua/TMEffectTemplates.lua')
 local EffectTemplate = import('/lua/EffectTemplates.lua')
 local TArtilleryProjectile = import('/lua/terranprojectiles.lua').TArtilleryProjectile
-local AeonBROT3BTBOTproj = import('/mods/TotalMayhem/lua/TMprojectiles.lua').AeonBROT3BTBOTproj
+local AeonBROT3BTBOTproj = import('/mods/fa-total-mayhem/lua/TMprojectiles.lua').AeonBROT3BTBOTproj
 local RandomFloat = import('/lua/utilities.lua').GetRandomFloat
 local VizMarker = import('/lua/sim/VizMarker.lua').VizMarker
 
 BROT3BTBOTproj = Class(AeonBROT3BTBOTproj){ OnImpact = function(self, TargetType, TargetEntity)
 	local FxFragEffect = EffectTemplate.AIFBallisticMortarHit01
-	local ChildProjectileBP = '/mods/TotalMayhem/projectiles/BROT3BTBOT2proj/BROT3BTBOT2proj_proj.bp'
+	local ChildProjectileBP = '/mods/fa-total-mayhem/projectiles/BROT3BTBOT2proj/BROT3BTBOT2proj_proj.bp'
 
 	-- Split effects
 	for k, v in FxFragEffect do

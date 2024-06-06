@@ -408,7 +408,7 @@ Removed BUILTBYTIER4COMMANDER from all unit categories
 
 Unit brnst2advbattleship (Advanced Battleship) Added missing Categorie 'AEON'
 
-Unit brmt3garg (Advanced Assault Bot) Deleted WeaponUnpackAnimation "/mods/TotalMayhem/units/BRMT3HAM/BRMT3HAM_deploy.sca"
+Unit brmt3garg (Advanced Assault Bot) Deleted WeaponUnpackAnimation "/mods/fa-total-mayhem/units/BRMT3HAM/BRMT3HAM_deploy.sca"
 
 Unit BRPT3SHBM Thaez-Atha - (Experimental Mega Bot)
 Energy being spawns now when reclaimed.
@@ -799,7 +799,7 @@ Added BUILTBYTIER1ENGINEER
 Unit BRNT3PERSES
 Changed TIFCommanderDeathWeapon to SCUDeathWeapon
 Changed TMMMEffectTemplate['UEFDeath02'] to TMEffectTemplate['UEFDeath02']
-Added local TMEffectTemplate = import('/mods/TotalMayhem/lua/TMEffectTemplates.lua')
+Added local TMEffectTemplate = import('/mods/fa-total-mayhem/lua/TMEffectTemplates.lua')
 Removed unused local EffectUtils = import('/lua/effectutilities.lua')
 Removed unused local TSAMLauncher = WeaponsFile.TSAMLauncher
 Removed unused local TDFLightPlasmaCannonWeapon = WeaponsFile.TDFLightPlasmaCannonWeapon
@@ -817,7 +817,7 @@ Removed unused local EffectTemplate = import('/lua/EffectTemplates.lua')
 Removed unused local EffectUtils = import('/lua/effectutilities.lua')
 
 Unit BRPT3BT
-Removed unused local TMEffectTemplate = import('/mods/TotalMayhem/lua/TMEffectTemplates.lua')
+Removed unused local TMEffectTemplate = import('/mods/fa-total-mayhem/lua/TMEffectTemplates.lua')
 Removed unused local EffectUtils = import('/lua/effectutilities.lua')
 
 Unit BROT3SHPD
@@ -866,7 +866,7 @@ Removed unused local TSAMLauncher = WeaponsFile.TSAMLauncher
 Removed unused local EffectUtils = import('/lua/effectutilities.lua')
 
 Unit BRPT3PD
-Removed unused local TMEffectTemplate = import('/mods/TotalMayhem/lua/TMEffectTemplates.lua')
+Removed unused local TMEffectTemplate = import('/mods/fa-total-mayhem/lua/TMEffectTemplates.lua')
 Removed unused local EffectUtils = import('/lua/effectutilities.lua')
 
 Unit BRNT1EXPD
@@ -881,7 +881,7 @@ Removed unused local WeaponsFileAutoAttack = import('/lua/terranweapons.lua')
 Removed unused local AutoAttackWeapon = WeaponsFileAutoAttack.TDFLandGaussCannonWeapon
 
 Unit BRPT3ML
-Removed unused local TMEffectTemplate = import('/mods/TotalMayhem/lua/TMEffectTemplates.lua')
+Removed unused local TMEffectTemplate = import('/mods/fa-total-mayhem/lua/TMEffectTemplates.lua')
 Removed unused local EffectUtils = import('/lua/effectutilities.lua')
 Removed unused local SDFOhCannon = import('/lua/seraphimweapons.lua').SDFOhCannon
 
@@ -923,7 +923,7 @@ Removed unused local EffectTemplate = import('/lua/EffectTemplates.lua')
 Removed unused local EffectUtils = import('/lua/effectutilities.lua')
 
 Unit BRPT1ADVNAVYGUN
-Removed unused local TMEffectTemplate = import('/mods/TotalMayhem/lua/TMEffectTemplates.lua')
+Removed unused local TMEffectTemplate = import('/mods/fa-total-mayhem/lua/TMEffectTemplates.lua')
 Removed unused local EffectUtils = import('/lua/effectutilities.lua')
 
 Unit BROAT1ENGINEERDRONE
@@ -940,7 +940,7 @@ Removed unused local EffectTemplate = import('/lua/EffectTemplates.lua')
 Removed unused local EffectUtils = import('/lua/effectutilities.lua')
 
 Unit BRPT1ASTA
-Removed unused local TMEffectTemplate = import('/mods/TotalMayhem/lua/TMEffectTemplates.lua')
+Removed unused local TMEffectTemplate = import('/mods/fa-total-mayhem/lua/TMEffectTemplates.lua')
 Removed unused local EffectUtils = import('/lua/effectutilities.lua')
 
 Unit BRPT1BTBOT
@@ -952,33 +952,33 @@ Unit BRMT2PD
 Removed unused local EffectUtils = import('/lua/effectutilities.lua')
 
 BRPT1PD
-Removed unused local TMEffectTemplate = import('/mods/TotalMayhem/lua/TMEffectTemplates.lua')
+Removed unused local TMEffectTemplate = import('/mods/fa-total-mayhem/lua/TMEffectTemplates.lua')
 Removed unused local EffectUtils = import('/lua/effectutilities.lua')
 
 BRPT1EXPD
-Removed unused local TMEffectTemplate = import('/mods/TotalMayhem/lua/TMEffectTemplates.lua')
+Removed unused local TMEffectTemplate = import('/mods/fa-total-mayhem/lua/TMEffectTemplates.lua')
 Removed unused local EffectUtils = import('/lua/effectutilities.lua')
 
 BRMBT1PERI
 Removed unused local WeaponsFile = import('/lua/terranweapons.lua')
 Removed unused local TDFGaussCannonWeapon = WeaponsFile.TDFLandGaussCannonWeapon
 Removed unused local EffectUtils = import('/lua/effectutilities.lua')
-Removed unused local TMMMEffectTemplate = import('/mods/TotalMayhem/lua/TMavaEffectTemplates.lua')
+Removed unused local TMMMEffectTemplate = import('/mods/fa-total-mayhem/lua/TMavaEffectTemplates.lua')
 
 BRNBAAFAC
 Removed unused local EffectUtils = import('/lua/effectutilities.lua')
-Removed unused local TMMMEffectTemplate = import('/mods/TotalMayhem/lua/TMavaEffectTemplates.lua')
+Removed unused local TMMMEffectTemplate = import('/mods/fa-total-mayhem/lua/TMavaEffectTemplates.lua')
 
 BRNBT1PERI
 Removed unused local WeaponsFile = import('/lua/terranweapons.lua')
 Removed unused local TDFGaussCannonWeapon = WeaponsFile.TDFLandGaussCannonWeapon
 Removed unused local EffectUtils = import('/lua/effectutilities.lua')
-Removed unused local TMMMEffectTemplate = import('/mods/TotalMayhem/lua/TMavaEffectTemplates.lua')
+Removed unused local TMMMEffectTemplate = import('/mods/fa-total-mayhem/lua/TMavaEffectTemplates.lua')
 
 BRNT2PD2
 Removed unused local EffectTemplate = import('/lua/EffectTemplates.lua')
 Removed unused local EffectUtils = import('/lua/effectutilities.lua')
-Removed unused local TMMMEffectTemplate = import('/mods/TotalMayhem/lua/TMavaEffectTemplates.lua')
+Removed unused local TMMMEffectTemplate = import('/mods/fa-total-mayhem/lua/TMavaEffectTemplates.lua')
 
 BRNT3ADVBTBOT
 Removed unused local WeaponsFileAutoAttack = import('/lua/terranweapons.lua')
@@ -989,14 +989,14 @@ BRPBT1PERI
 Removed unused local WeaponsFile = import('/lua/terranweapons.lua')
 Removed unused local TDFGaussCannonWeapon = WeaponsFile.TDFLandGaussCannonWeapon
 Removed unused local EffectUtils = import('/lua/effectutilities.lua')
-Removed unused local TMMMEffectTemplate = import('/mods/TotalMayhem/lua/TMavaEffectTemplates.lua')
+Removed unused local TMMMEffectTemplate = import('/mods/fa-total-mayhem/lua/TMavaEffectTemplates.lua')
 
 BROBT1PERI
 Unit was named BRMBT1PERI. Renamed to BROBT1PERI
 Removed unused local WeaponsFile = import('/lua/terranweapons.lua')
 Removed unused local TDFGaussCannonWeapon = WeaponsFile.TDFLandGaussCannonWeapon
 Removed unused local EffectUtils = import('/lua/effectutilities.lua')
-Removed unused local TMMMEffectTemplate = import('/mods/TotalMayhem/lua/TMavaEffectTemplates.lua')
+Removed unused local TMMMEffectTemplate = import('/mods/fa-total-mayhem/lua/TMavaEffectTemplates.lua')
 
 BRMAT2GUNSHIP
 Removed unused local EffectTemplate = import('/lua/EffectTemplates.lua')
@@ -1005,7 +1005,7 @@ Removed unused local EffectUtils = import('/lua/effectutilities.lua')
 BRMT3AA
 Removed unused local EffectTemplate = import('/lua/EffectTemplates.lua')
 Removed unused local EffectUtils = import('/lua/effectutilities.lua')
-Removed unused local TMEffectTemplate = import('/mods/TotalMayhem/lua/TMEffectTemplates.lua')
+Removed unused local TMEffectTemplate = import('/mods/fa-total-mayhem/lua/TMEffectTemplates.lua')
 
 BROAT3PRIDE
 Removed unused local ADFQuantumAutogunWeapon = AeonWeapons.ADFQuantumAutogunWeapon
@@ -1034,7 +1034,7 @@ Removed unused local EffectUtils = import('/lua/effectutilities.lua')
 Unit BROT3SHBM
 Changed TIFCommanderDeathWeapon to SCUDeathWeapon
 Removed unused local AWeapons = import('/lua/aeonweapons.lua')
-Removed unused local TMEffectTemplate = import('/mods/TotalMayhem/lua/TMEffectTemplates.lua')
+Removed unused local TMEffectTemplate = import('/mods/fa-total-mayhem/lua/TMEffectTemplates.lua')
 Removed unused local EffectUtils = import('/lua/effectutilities.lua')
 
 Unit BROT3NCM2
@@ -1082,7 +1082,7 @@ Removed unused local ADFCannonOblivionWeapon = WeaponsFile2.ADFCannonOblivionWea
 Unit BROT2EXBM
 Changed TIFCommanderDeathWeapon to SCUDeathWeapon
 Removed unused local TDFHeavyPlasmaCannonWeapon = WeaponsFile.TDFHeavyPlasmaGatlingCannonWeapon
-Removed unused local TMWeaponsFile = import('/mods/TotalMayhem/lua/TMAeonWeapons.lua')
+Removed unused local TMWeaponsFile = import('/mods/fa-total-mayhem/lua/TMAeonWeapons.lua')
 Removed unused local TMAnovacatbluelaserweapon = TMWeaponsFile.TMAnovacatbluelaserweapon
 Removed unused local TDFRiotWeapon = WeaponsFile.TDFRiotWeapon
 Removed unused local EffectUtils = import('/lua/effectutilities.lua')
@@ -1090,9 +1090,9 @@ Removed unused local ADFCannonOblivionWeapon = WeaponsFile2.ADFCannonOblivionWea
 
 Unit BROT3BTBOT
 Changed TIFCommanderDeathWeapon to SCUDeathWeapon
-Removed unused local TMEffectTemplate = import('/mods/TotalMayhem/lua/TMEffectTemplates.lua')
+Removed unused local TMEffectTemplate = import('/mods/fa-total-mayhem/lua/TMEffectTemplates.lua')
 Removed unused local EffectUtils = import('/lua/effectutilities.lua')
-Removed unused local TMWeaponsFile = import('/mods/TotalMayhem/lua/TMAeonWeapons.lua')
+Removed unused local TMWeaponsFile = import('/mods/fa-total-mayhem/lua/TMAeonWeapons.lua')
 Removed unused local TMAnovacatbluelaserweapon = TMWeaponsFile.TMAnovacatbluelaserweapon
 Removed unused local TMAnovacatgreenlaserweapon = TMWeaponsFile.TMAnovacatgreenlaserweapon
 Removed unused local TDFGaussCannonWeapon = WeaponsFile.TDFLandGaussCannonWeapon
@@ -1199,7 +1199,7 @@ Changed TIFCommanderDeathWeapon to SCUDeathWeapon
 Removed unused local SWeapons = import ('/lua/seraphimweapons.lua')
 Removed unused local SDFSinnuntheWeapon = SWeapons.SDFSinnuntheWeapon
 Removed unused local EffectUtils = import('/lua/effectutilities.lua')
-Removed unused local TMEffectTemplate = import('/mods/TotalMayhem/lua/TMEffectTemplates.lua')
+Removed unused local TMEffectTemplate = import('/mods/fa-total-mayhem/lua/TMEffectTemplates.lua')
 
 Unit BRMT3SNAKE
 Changed TIFCommanderDeathWeapon to SCUDeathWeapon
@@ -1594,7 +1594,7 @@ BRPT1EXTANK2
 Removed unused local EffectUtils = import('/lua/effectutilities.lua')
 
 BRPT2EXPD
-Removed unused local TMEffectTemplate = import('/mods/TotalMayhem/lua/TMEffectTemplates.lua')
+Removed unused local TMEffectTemplate = import('/mods/fa-total-mayhem/lua/TMEffectTemplates.lua')
 Removed unused local EffectUtils = import('/lua/effectutilities.lua')
 
 BRPT2EXBOT

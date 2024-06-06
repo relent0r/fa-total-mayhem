@@ -15,7 +15,7 @@ local TDFGaussCannonWeapon = WeaponsFile.TDFLandGaussCannonWeapon
 local SCUDeathWeapon = import('/lua/sim/defaultweapons.lua').SCUDeathWeapon
 local SDFSinnuntheWeapon = SWeapons.SDFSinnuntheWeapon
 local EffectTemplate = import('/lua/EffectTemplates.lua')
-local TMEffectTemplate = import('/mods/TotalMayhem/lua/TMEffectTemplates.lua')
+local TMEffectTemplate = import('/mods/fa-total-mayhem/lua/TMEffectTemplates.lua')
 
 BRNT2EXLM = Class(TWalkingLandUnit){
 	Weapons = {

@@ -18,9 +18,9 @@ local EffectTemplate = import('/lua/EffectTemplates.lua')
 local RobotTalkFile = import('/lua/cybranweapons.lua')
 local CIFGrenadeWeapon = RobotTalkFile.CIFGrenadeWeapon
 local CAAMissileNaniteWeapon = WeaponsFile.CAAMissileNaniteWeapon
-local TMWeaponsFile = import('/mods/TotalMayhem/lua/TMAeonWeapons.lua')
+local TMWeaponsFile = import('/mods/fa-total-mayhem/lua/TMAeonWeapons.lua')
 local TMMadCatmk4laserweapon = TMWeaponsFile.TMMadCatmk4laserweapon
-local TMEffectTemplate = import('/mods/TotalMayhem/lua/TMEffectTemplates.lua')
+local TMEffectTemplate = import('/mods/fa-total-mayhem/lua/TMEffectTemplates.lua')
 
 BRMT3MCM4 = Class(CWalkingLandUnit){
 	Weapons = {

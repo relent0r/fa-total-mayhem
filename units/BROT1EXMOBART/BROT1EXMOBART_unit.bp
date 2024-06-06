@@ -270,7 +270,7 @@ UnitBlueprint{
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 25,
 		MuzzleVelocityReduceDistance = 28,
-		ProjectileId = '/mods/TotalMayhem/projectiles/BROT1EXMOBARTproj/BROT1EXMOBARTproj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BROT1EXMOBARTproj/BROT1EXMOBARTproj_proj.bp',
 		ProjectilesPerOnFire = 1,
 		RackBones = { {
 			MuzzleBones = { 'Barrel_Muzzle' },
@@ -313,7 +313,7 @@ UnitBlueprint{
 		Turreted = true,
 		WeaponCategory = 'Indirect Fire',
 		WeaponRepackTimeout = 6,
-		WeaponUnpackAnimation = '/mods/TotalMayhem/units/BROT1EXMOBART/BROT1EXMOBART_Deploy.sca',
+		WeaponUnpackAnimation = '/mods/fa-total-mayhem/units/BROT1EXMOBART/BROT1EXMOBART_Deploy.sca',
 		WeaponUnpackAnimationRate = 1.55,
 		WeaponUnpackLocksMotion = false,
 		WeaponUnpacks = true,
@@ -339,7 +339,7 @@ UnitBlueprint{
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 40,
 		PrefersPrimaryWeaponTarget = true,
-		ProjectileId = '/mods/TotalMayhem/projectiles/NULLWEAPON/NULLWEAPON_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/NULLWEAPON/NULLWEAPON_proj.bp',
 		ProjectileLifetimeUsesMultiplier = 1,
 		ProjectilesPerOnFire = 1,
 		RackBones = { {

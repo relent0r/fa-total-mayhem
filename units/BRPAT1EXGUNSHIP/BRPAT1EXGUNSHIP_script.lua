@@ -16,7 +16,7 @@ local TDFGaussCannonWeapon = WeaponsFile.TDFLandGaussCannonWeapon
 local EffectTemplate = import('/lua/EffectTemplates.lua')
 local SAAOlarisCannonWeapon = SeraphimWeapons.SAAOlarisCannonWeapon
 local SDFThauCannon = SeraphimWeapons.SDFThauCannon
-local TMEffectTemplate = import('/mods/TotalMayhem/lua/TMEffectTemplates.lua')
+local TMEffectTemplate = import('/mods/fa-total-mayhem/lua/TMEffectTemplates.lua')
 
 BRPAT1EXGUNSHIP = Class(SAirUnit){
 	Weapons = {

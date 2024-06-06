@@ -12,12 +12,12 @@ local AAirUnit = import('/lua/aeonunits.lua').AAirUnit
 local WeaponsFile = import('/lua/terranweapons.lua')
 local AeonWeapons = import('/lua/aeonweapons.lua')
 local TDFGaussCannonWeapon = WeaponsFile.TDFLandGaussCannonWeapon
-local TMWeaponsFile = import('/mods/TotalMayhem/lua/TMAeonWeapons.lua')
+local TMWeaponsFile = import('/mods/fa-total-mayhem/lua/TMAeonWeapons.lua')
 local TMAnovacatgreenlaserweapon = TMWeaponsFile.TMAnovacatgreenlaserweapon
 local TMAnovacatbluelaserweapon = TMWeaponsFile.TMAnovacatbluelaserweapon
 local AAAZealotMissileWeapon = AeonWeapons.AAAZealotMissileWeapon
 local EffectTemplate = import('/lua/EffectTemplates.lua')
-local TMEffectTemplate = import('/mods/TotalMayhem/lua/TMEffectTemplates.lua')
+local TMEffectTemplate = import('/mods/fa-total-mayhem/lua/TMEffectTemplates.lua')
 local util = import('/lua/utilities.lua')
 local fxutil = import('/lua/effectutilities.lua')
 

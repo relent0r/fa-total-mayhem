@@ -7,6 +7,6 @@ TrailEmitterBlueprint{
 	BlendMode = 3,
 	TextureRepeatRate = 1,
 	LODCutoff = 260,
-	RampTexture = [[/mods/TotalMayhem/textures/particles/AeonT3NCM2_polytrails.dds]],
+	RampTexture = [[/mods/fa-total-mayhem/textures/particles/AeonT3NCM2_polytrails.dds]],
 	RepeatTexture = [[/textures/particles/ramp_phalanx_munition_01.dds]],
 }

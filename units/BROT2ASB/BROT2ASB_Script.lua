@@ -9,8 +9,8 @@
 -- ****************************************************************************
 
 local CWalkingLandUnit = import('/lua/cybranunits.lua').CWalkingLandUnit
-local TMWeaponsFile = import('/mods/TotalMayhem/lua/TMAeonWeapons.lua')
-local TMEffectTemplate = import('/mods/TotalMayhem/lua/TMEffectTemplates.lua')
+local TMWeaponsFile = import('/mods/fa-total-mayhem/lua/TMAeonWeapons.lua')
+local TMEffectTemplate = import('/mods/fa-total-mayhem/lua/TMEffectTemplates.lua')
 local SCUDeathWeapon = import('/lua/sim/defaultweapons.lua').SCUDeathWeapon
 local TMAnovacatgreenlaserweapon = TMWeaponsFile.TMAnovacatgreenlaserweapon
 local WeaponsFileAutoAttack = import('/lua/terranweapons.lua')

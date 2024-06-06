@@ -20,9 +20,9 @@ ProjectileBlueprint{
 	Display = {
 		Mesh = {
 			LODs = { {
-				AlbedoName = '/mods/TotalMayhem/units/BRNAT1ADVFIG/BRNAT1ADVFIG_Albedo.dds',
+				AlbedoName = '/mods/fa-total-mayhem/units/BRNAT1ADVFIG/BRNAT1ADVFIG_Albedo.dds',
 				LODCutoff = 150,
-				MeshName = '/mods/TotalMayhem/units/BRNAT1ADVFIG/BRNAT1ADVFIGMISSILE_LOD0.scm',
+				MeshName = '/mods/fa-total-mayhem/units/BRNAT1ADVFIG/BRNAT1ADVFIGMISSILE_LOD0.scm',
 				ShaderName = 'TMeshAlpha',
 			} },
 		},

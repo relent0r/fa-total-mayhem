@@ -201,7 +201,7 @@ UnitBlueprint{
 		MuzzleSalvoDelay = 0,
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 45,
-		ProjectileId = '/Mods/TotalMayhem/projectiles/BROT1ADVNAVYGUNproj/BROT1ADVNAVYGUNproj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BROT1ADVNAVYGUNproj/BROT1ADVNAVYGUNproj_proj.bp',
 		ProjectileLifetime = 25,
 		ProjectilesPerOnFire = 1,
 		RackBones = { {
@@ -271,7 +271,7 @@ UnitBlueprint{
 		MuzzleSalvoDelay = 0,
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 45,
-		ProjectileId = '/Mods/TotalMayhem/projectiles/BROT1ADVNAVYGUNproj/BROT1ADVNAVYGUNproj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BROT1ADVNAVYGUNproj/BROT1ADVNAVYGUNproj_proj.bp',
 		ProjectileLifetime = 25,
 		ProjectilesPerOnFire = 1,
 		RackBones = { {
@@ -341,7 +341,7 @@ UnitBlueprint{
 		MuzzleSalvoDelay = 0,
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 45,
-		ProjectileId = '/Mods/TotalMayhem/projectiles/BROT1ADVNAVYGUNproj/BROT1ADVNAVYGUNproj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BROT1ADVNAVYGUNproj/BROT1ADVNAVYGUNproj_proj.bp',
 		ProjectileLifetime = 25,
 		ProjectilesPerOnFire = 1,
 		RackBones = { {

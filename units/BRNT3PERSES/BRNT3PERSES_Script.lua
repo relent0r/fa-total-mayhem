@@ -13,8 +13,8 @@ local TDFGaussCannonWeapon = import('/lua/terranweapons.lua').TDFGaussCannonWeap
 local WeaponsFile = import('/lua/terranweapons.lua')
 local EffectTemplate = import('/lua/EffectTemplates.lua')
 local SCUDeathWeapon = import('/lua/sim/defaultweapons.lua').SCUDeathWeapon
-local TMEffectTemplate = import('/mods/TotalMayhem/lua/TMEffectTemplates.lua')
-local TMMMEffectTemplate = import('/mods/TotalMayhem/lua/TMavaEffectTemplates.lua')
+local TMEffectTemplate = import('/mods/fa-total-mayhem/lua/TMEffectTemplates.lua')
+local TMMMEffectTemplate = import('/mods/fa-total-mayhem/lua/TMavaEffectTemplates.lua')
 
 BRNT3PERSES = Class(TStructureUnit){
 	Weapons = {

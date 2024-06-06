@@ -26,8 +26,8 @@ local DepthCharge = import('/lua/defaultantiprojectile.lua').DepthCharge
 local util = import('/lua/utilities.lua')
 local EffectTemplate = import('/lua/EffectTemplates.lua')
 
-local TMavaEffectTemplate = import('/mods/TotalMayhem/lua/TMavaEffectTemplates.lua')
-local TMEffectTemplate = import('/mods/TotalMayhem/lua/TMEffectTemplates.lua')
+local TMavaEffectTemplate = import('/mods/fa-total-mayhem/lua/TMavaEffectTemplates.lua')
+local TMEffectTemplate = import('/mods/fa-total-mayhem/lua/TMEffectTemplates.lua')
 local DepthCharge = import('/lua/defaultantiprojectile.lua').DepthCharge
 local util = import('/lua/utilities.lua')
 
@@ -295,7 +295,7 @@ UefBRNAT3BOMBERproj = Class(EmitterProjectile){
 -- Aeon Experimental Novacat mk2 Smallguns
 -- ----------------
 AeonBROT3NCM2proj = Class(MultiPolyTrailProjectile){
-	PolyTrails = { '/mods/TotalMayhem/effects/emitters/AeonT3NCM2_polytrails_emit.bp' },
+	PolyTrails = { '/mods/fa-total-mayhem/effects/emitters/AeonT3NCM2_polytrails_emit.bp' },
 	FxImpactUnit = EffectTemplate.SDFExperimentalPhasonProjHit01,
 	FxUnitHitScale = 0.85,
 	FxImpactProp = EffectTemplate.SDFExperimentalPhasonProjHit01,

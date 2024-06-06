@@ -10,13 +10,13 @@
 
 local SWalkingLandUnit = import('/lua/seraphimunits.lua').SWalkingLandUnit
 local SeraphimWeapons = import('/lua/seraphimweapons.lua')
-local TMWeaponsFile = import('/mods/TotalMayhem/lua/TMAeonWeapons.lua')
+local TMWeaponsFile = import('/mods/fa-total-mayhem/lua/TMAeonWeapons.lua')
 local SAAOlarisCannonWeapon = SeraphimWeapons.SAAOlarisCannonWeapon
 local SDFAireauWeapon = SeraphimWeapons.SDFAireauWeapon
 local SDFUltraChromaticBeamGenerator = SeraphimWeapons.SDFUltraChromaticBeamGenerator02
 local TMCSpiderLaserweapon = TMWeaponsFile.TMCSpiderLaserweapon
 local SDFSinnuntheWeapon = SeraphimWeapons.SDFSinnuntheWeapon
-local TMEffectTemplate = import('/mods/TotalMayhem/lua/TMEffectTemplates.lua')
+local TMEffectTemplate = import('/mods/fa-total-mayhem/lua/TMEffectTemplates.lua')
 
 BRPT3SHBM = Class(SWalkingLandUnit){
 	SpawnEffects = {

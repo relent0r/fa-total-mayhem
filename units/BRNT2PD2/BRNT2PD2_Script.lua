@@ -11,7 +11,7 @@
 local TStructureUnit = import('/lua/terranunits.lua').TStructureUnit
 local WeaponsFile = import('/lua/terranweapons.lua')
 local TDFGaussCannonWeapon = WeaponsFile.TDFLandGaussCannonWeapon
-local TMEffectTemplate = import('/mods/TotalMayhem/lua/TMEffectTemplates.lua')
+local TMEffectTemplate = import('/mods/fa-total-mayhem/lua/TMEffectTemplates.lua')
 
 BRNT2PD2 = Class(TStructureUnit){
 	Weapons = { MainGun = Class(TDFGaussCannonWeapon){

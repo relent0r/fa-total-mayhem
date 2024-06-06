@@ -13,7 +13,7 @@ local SDFHeavyQuarnonCannon = SeraphimWeapons.SDFHeavyQuarnonCannon
 local WeaponsFileAutoAttack = import('/lua/terranweapons.lua')
 local AutoAttackWeapon = WeaponsFileAutoAttack.TDFLandGaussCannonWeapon
 local EffectTemplate = import('/lua/EffectTemplates.lua')
-local TMEffectTemplate = import('/mods/TotalMayhem/lua/TMEffectTemplates.lua')
+local TMEffectTemplate = import('/mods/fa-total-mayhem/lua/TMEffectTemplates.lua')
 
 BRPT1EXTANK2 = Class(SWalkingLandUnit){
 	Weapons = {

@@ -26,7 +26,7 @@ local DepthCharge = import('/lua/defaultantiprojectile.lua').DepthCharge
 local util = import('/lua/utilities.lua')
 local EffectTemplate = import('/lua/EffectTemplates.lua')
 
-local TMEffectTemplate = import('/mods/TotalMayhem/lua/TMEffectTemplates.lua')
+local TMEffectTemplate = import('/mods/fa-total-mayhem/lua/TMEffectTemplates.lua')
 local DepthCharge = import('/lua/defaultantiprojectile.lua').DepthCharge
 local util = import('/lua/utilities.lua')
 
@@ -92,7 +92,7 @@ SerBRPT1EXTANK2proj = Class(MultiPolyTrailProjectile){
 -- ----------------
 
 AeonBROT3NCNlaserproj = Class(MultiPolyTrailProjectile){
-	PolyTrails = { '/mods/TotalMayhem/effects/emitters/novacat_bluelaser_emit.bp' },
+	PolyTrails = { '/mods/fa-total-mayhem/effects/emitters/novacat_bluelaser_emit.bp' },
 	PolyTrailOffset = { 0, 0 },
 	-- Hit Effects
 	FxImpactUnit = EffectTemplate.CLaserHitUnit01,
@@ -1062,13 +1062,13 @@ CybBRMT3MCM4proj = Class(MultiPolyTrailProjectile){
 -- ----------------
 CybBRMT3MCM4RLproj = Class(MultiPolyTrailProjectile){
 	FxTrails = {
-		'/mods/TotalMayhem/effects/emitters/w_u_gau03_p_03_brightglow_emit.bp',
-		'/mods/TotalMayhem/effects/emitters/w_u_gau03_p_04_smoke_emit.bp',
+		'/mods/fa-total-mayhem/effects/emitters/w_u_gau03_p_03_brightglow_emit.bp',
+		'/mods/fa-total-mayhem/effects/emitters/w_u_gau03_p_04_smoke_emit.bp',
 	},
 	FxTrailOffset = 0.2,
 	PolyTrails = {
-		'/mods/TotalMayhem/effects/emitters/w_u_gau03_p_01_polytrails_emit.bp',
-		'/mods/TotalMayhem/effects/emitters/w_u_gau03_p_02_polytrails_emit.bp',
+		'/mods/fa-total-mayhem/effects/emitters/w_u_gau03_p_01_polytrails_emit.bp',
+		'/mods/fa-total-mayhem/effects/emitters/w_u_gau03_p_02_polytrails_emit.bp',
 	},
 	PolyTrailOffset = { 0.3, 0 },
 	FxImpactUnit = TMEffectTemplate.BattleMech2RocketHit,
@@ -1107,13 +1107,13 @@ CybBRMT3BTRLproj = Class(SingleCompositeEmitterProjectile){
 -- ----------------
 CybBRMT3BM2TLproj = Class(MultiPolyTrailProjectile){
 	FxTrails = {
-		'/mods/TotalMayhem/effects/emitters/w_u_gau03_p_03_brightglow_emit.bp',
-		'/mods/TotalMayhem/effects/emitters/w_u_gau03_p_04_smoke_emit.bp',
+		'/mods/fa-total-mayhem/effects/emitters/w_u_gau03_p_03_brightglow_emit.bp',
+		'/mods/fa-total-mayhem/effects/emitters/w_u_gau03_p_04_smoke_emit.bp',
 	},
 	FxTrailOffset = 0.2,
 	PolyTrails = {
-		'/mods/TotalMayhem/effects/emitters/w_u_gau03_p_01_polytrails_emit.bp',
-		'/mods/TotalMayhem/effects/emitters/w_u_gau03_p_02_polytrails_emit.bp',
+		'/mods/fa-total-mayhem/effects/emitters/w_u_gau03_p_01_polytrails_emit.bp',
+		'/mods/fa-total-mayhem/effects/emitters/w_u_gau03_p_02_polytrails_emit.bp',
 	},
 	PolyTrailOffset = { 0.3, 0 },
 	FxImpactUnit = TMEffectTemplate.BattleMech2RocketHit,
@@ -1672,12 +1672,12 @@ UefBRNT3SHPDproj = Class(MultiPolyTrailProjectile){
 UefBRNT3MOBproj = Class(MultiPolyTrailProjectile){
 	PolyTrailOffset = { 0.05, 0.05, 0.05 },
 	FxTrails = {
-		'/mods/TotalMayhem/effects/emitters/w_u_gau03_p_03_brightglow_emit.bp',
-		'/mods/TotalMayhem/effects/emitters/w_u_gau03_p_04_smoke_emit.bp',
+		'/mods/fa-total-mayhem/effects/emitters/w_u_gau03_p_03_brightglow_emit.bp',
+		'/mods/fa-total-mayhem/effects/emitters/w_u_gau03_p_04_smoke_emit.bp',
 	},
 	PolyTrails = {
-		'/mods/TotalMayhem/effects/emitters/w_u_gau03_p_01_polytrails_emit.bp',
-		'/mods/TotalMayhem/effects/emitters/w_u_gau03_p_02_polytrails_emit.bp',
+		'/mods/fa-total-mayhem/effects/emitters/w_u_gau03_p_01_polytrails_emit.bp',
+		'/mods/fa-total-mayhem/effects/emitters/w_u_gau03_p_02_polytrails_emit.bp',
 	},
 	FxImpactUnit = TMEffectTemplate.UefMobileFortressGunhit,
 	FxUnitHitScale = 1.5,
@@ -1838,13 +1838,13 @@ CybBRMT1Dproj = Class(NullShell){
 -- ----------------
 CybBRMT3FFARproj = Class(MultiPolyTrailProjectile){
 	FxTrails = {
-		'/mods/TotalMayhem/effects/emitters/w_u_gau03_p_03_brightglow_emit.bp',
-		'/mods/TotalMayhem/effects/emitters/w_u_gau03_p_04_smoke_emit.bp',
+		'/mods/fa-total-mayhem/effects/emitters/w_u_gau03_p_03_brightglow_emit.bp',
+		'/mods/fa-total-mayhem/effects/emitters/w_u_gau03_p_04_smoke_emit.bp',
 	},
 	FxTrailOffset = 0.2,
 	PolyTrails = {
-		'/mods/TotalMayhem/effects/emitters/w_u_gau03_p_01_polytrails_emit.bp',
-		'/mods/TotalMayhem/effects/emitters/w_u_gau03_p_02_polytrails_emit.bp',
+		'/mods/fa-total-mayhem/effects/emitters/w_u_gau03_p_01_polytrails_emit.bp',
+		'/mods/fa-total-mayhem/effects/emitters/w_u_gau03_p_02_polytrails_emit.bp',
 	},
 	PolyTrailOffset = { 0.3, 0 },
 	FxImpactUnit = TMEffectTemplate.CybranHeavyProtonRocketHit,
@@ -1896,13 +1896,13 @@ UefBRNT3FFARproj = Class(MultiPolyTrailProjectile){
 -- ----------------
 CybBRMT3FFAR2proj = Class(MultiPolyTrailProjectile){
 	FxTrails = {
-		'/mods/TotalMayhem/effects/emitters/w_u_gau03_p_03_brightglow_emit.bp',
-		'/mods/TotalMayhem/effects/emitters/w_u_gau03_p_04_smoke_emit.bp',
+		'/mods/fa-total-mayhem/effects/emitters/w_u_gau03_p_03_brightglow_emit.bp',
+		'/mods/fa-total-mayhem/effects/emitters/w_u_gau03_p_04_smoke_emit.bp',
 	},
 	FxTrailOffset = 0.2,
 	PolyTrails = {
-		'/mods/TotalMayhem/effects/emitters/w_u_gau03_p_01_polytrails_emit.bp',
-		'/mods/TotalMayhem/effects/emitters/w_u_gau03_p_02_polytrails_emit.bp',
+		'/mods/fa-total-mayhem/effects/emitters/w_u_gau03_p_01_polytrails_emit.bp',
+		'/mods/fa-total-mayhem/effects/emitters/w_u_gau03_p_02_polytrails_emit.bp',
 	},
 	PolyTrailOffset = { 0.3, 0 },
 	FxImpactUnit = TMEffectTemplate.CybranHeavyProtonRocketHit,
@@ -1951,7 +1951,7 @@ AeonBROST3BSHIPproj = Class(EmitterProjectile){
 -- Aeon Tech 2 Experimental Tank Hunter main gun
 -- ----------------
 AeonBROT2EXTHproj = Class(MultiPolyTrailProjectile){
-	PolyTrails = { '/mods/TotalMayhem/effects/emitters/AeonT2EXTH_polytrails_emit.bp' },
+	PolyTrails = { '/mods/fa-total-mayhem/effects/emitters/AeonT2EXTH_polytrails_emit.bp' },
 	FxImpactUnit = TMEffectTemplate.AeonT2ExperimentalTankHunterHit01,
 	FxUnitHitScale = 1,
 	FxImpactProp = TMEffectTemplate.AeonT2ExperimentalTankHunterHit01,
@@ -1966,7 +1966,7 @@ AeonBROT2EXTHproj = Class(MultiPolyTrailProjectile){
 -- Aeon Tech 3 Super Defense main gun
 -- ----------------
 AeonBROT3SHPD2proj = Class(MultiPolyTrailProjectile){
-	PolyTrails = { '/mods/TotalMayhem/effects/emitters/AeonT3SHPD_polytrails_emit.bp' },
+	PolyTrails = { '/mods/fa-total-mayhem/effects/emitters/AeonT3SHPD_polytrails_emit.bp' },
 	FxImpactUnit = TMEffectTemplate.AeonT2ExperimentalTankHunterHit01,
 	FxUnitHitScale = 1.25,
 	FxImpactProp = TMEffectTemplate.AeonT2ExperimentalTankHunterHit01,
@@ -1983,8 +1983,8 @@ AeonBROT3SHPD2proj = Class(MultiPolyTrailProjectile){
 UefBRNT2EXARTproj = Class(MultiPolyTrailProjectile){
 	PolyTrailOffset = { 0.05, 0.05, 0.05 },
 	PolyTrails = {
-		'/mods/TotalMayhem/effects/emitters/UEFT2EXART_polytrails_emit.bp',
-		'/mods/TotalMayhem/effects/emitters/w_u_gau03_p_01_polytrails_emit.bp',
+		'/mods/fa-total-mayhem/effects/emitters/UEFT2EXART_polytrails_emit.bp',
+		'/mods/fa-total-mayhem/effects/emitters/w_u_gau03_p_01_polytrails_emit.bp',
 	},
 	FxImpactUnit = TMEffectTemplate.UEFT2EXARTHit02,
 	FxUnitHitScale = 1.0,
@@ -2001,7 +2001,7 @@ UefBRNT2EXARTproj = Class(MultiPolyTrailProjectile){
 -- ----------------
 CybBRMT3ADVBTBOTproj = Class(MultiPolyTrailProjectile){
 	PolyTrails = {
-		'/mods/TotalMayhem/effects/emitters/BRMT3ADVBTBOT_polytrails_emit.bp',
+		'/mods/fa-total-mayhem/effects/emitters/BRMT3ADVBTBOT_polytrails_emit.bp',
 		'/effects/emitters/disintegrator_polytrail_02_emit.bp',
 		'/effects/emitters/disintegrator_polytrail_03_emit.bp',
 		'/effects/emitters/default_polytrail_03_emit.bp',

@@ -203,7 +203,7 @@ UnitBlueprint{
 		MuzzleSalvoDelay = 0,
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 50,
-		ProjectileId = '/mods/TotalMayhem/projectiles/BRMT1EXTANKproj/BRMT1EXTANKproj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BRMT1EXTANKproj/BRMT1EXTANKproj_proj.bp',
 		ProjectileLifetimeUsesMultiplier = 2,
 		ProjectilesPerOnFire = 1,
 		RackBones = { {

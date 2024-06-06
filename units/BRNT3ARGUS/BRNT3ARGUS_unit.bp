@@ -103,10 +103,10 @@ UnitBlueprint{
 			'<LOC ability_massive>Massive',
 		},
 		AnimationDeath = { {
-			Animation = '/mods/TotalMayhem/units/BRNT3ARGUS/BRNT3ARGUS_Death.sca',
+			Animation = '/mods/fa-total-mayhem/units/BRNT3ARGUS/BRNT3ARGUS_Death.sca',
 			Weight = 100,
 		} },
-		AnimationWalk = '/mods/TotalMayhem/units/BRNT3ARGUS/BRNT3ARGUS_Walk.sca',
+		AnimationWalk = '/mods/fa-total-mayhem/units/BRNT3ARGUS/BRNT3ARGUS_Walk.sca',
 		AnimationWalkRate = 2.3,
 		Mesh = {
 			IconFadeInZoom = 130,
@@ -276,7 +276,7 @@ UnitBlueprint{
 		MuzzleSalvoDelay = 0,
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 45,
-		ProjectileId = '/mods/TotalMayhem/projectiles/BRNT3ARGUSMINIproj/BRNT3ARGUSMINIproj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BRNT3ARGUSMINIproj/BRNT3ARGUSMINIproj_proj.bp',
 		ProjectileLifetimeUsesMultiplier = 4,
 		ProjectilesPerOnFire = 2,
 		RackBones = { {
@@ -358,7 +358,7 @@ UnitBlueprint{
 		MuzzleSalvoDelay = 0,
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 45,
-		ProjectileId = '/mods/TotalMayhem/projectiles/BRNT3WKproj/BRNT3WKproj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BRNT3WKproj/BRNT3WKproj_proj.bp',
 		ProjectileLifetimeUsesMultiplier = 4,
 		ProjectilesPerOnFire = 2,
 		RackBones = { {
@@ -444,7 +444,7 @@ UnitBlueprint{
 		MuzzleSalvoDelay = 0,
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 45,
-		ProjectileId = '/mods/TotalMayhem/projectiles/BRNT3BTproj/BRNT3BTproj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BRNT3BTproj/BRNT3BTproj_proj.bp',
 		ProjectileLifetimeUsesMultiplier = 4,
 		ProjectilesPerOnFire = 2,
 		RackBones = { {
@@ -530,7 +530,7 @@ UnitBlueprint{
 		MuzzleSalvoDelay = 0,
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 45,
-		ProjectileId = '/mods/TotalMayhem/projectiles/BRNT2HTproj/BRNT2HTproj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BRNT2HTproj/BRNT2HTproj_proj.bp',
 		ProjectileLifetimeUsesMultiplier = 4,
 		ProjectilesPerOnFire = 2,
 		RackBones = { {
@@ -618,7 +618,7 @@ UnitBlueprint{
 		MuzzleSalvoDelay = 0,
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 45,
-		ProjectileId = '/mods/TotalMayhem/projectiles/BRNT3ARGUSLASERproj/BRNT3ARGUSLASERproj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BRNT3ARGUSLASERproj/BRNT3ARGUSLASERproj_proj.bp',
 		ProjectileLifetimeUsesMultiplier = 4,
 		ProjectilesPerOnFire = 2,
 		RackBones = { {
@@ -698,7 +698,7 @@ UnitBlueprint{
 		MuzzleSalvoDelay = 0,
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 45,
-		ProjectileId = '/mods/TotalMayhem/projectiles/BRNT3ARGUSLASERproj/BRNT3ARGUSLASERproj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BRNT3ARGUSLASERproj/BRNT3ARGUSLASERproj_proj.bp',
 		ProjectileLifetimeUsesMultiplier = 4,
 		ProjectilesPerOnFire = 2,
 		RackBones = { {
@@ -778,7 +778,7 @@ UnitBlueprint{
 		MuzzleSalvoDelay = 0,
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 45,
-		ProjectileId = '/mods/TotalMayhem/projectiles/BRNT3ARGUSLASERproj/BRNT3ARGUSLASERproj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BRNT3ARGUSLASERproj/BRNT3ARGUSLASERproj_proj.bp',
 		ProjectileLifetimeUsesMultiplier = 4,
 		ProjectilesPerOnFire = 2,
 		RackBones = { {
@@ -844,7 +844,7 @@ UnitBlueprint{
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 40,
 		PrefersPrimaryWeaponTarget = true,
-		ProjectileId = '/mods/TotalMayhem/projectiles/NULLWEAPON/NULLWEAPON_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/NULLWEAPON/NULLWEAPON_proj.bp',
 		ProjectileLifetimeUsesMultiplier = 1,
 		ProjectilesPerOnFire = 1,
 		RackBones = { {

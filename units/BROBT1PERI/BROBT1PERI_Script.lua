@@ -10,7 +10,7 @@
 
 local TStructureUnit = import('/lua/terranunits.lua').TStructureUnit
 local EffectTemplate = import('/lua/EffectTemplates.lua')
-local TMEffectTemplate = import('/mods/TotalMayhem/lua/TMEffectTemplates.lua')
+local TMEffectTemplate = import('/mods/fa-total-mayhem/lua/TMEffectTemplates.lua')
 
 BROBT1PERI = Class(TStructureUnit){
 	OnStopBeingBuilt = function(self, builder, layer)

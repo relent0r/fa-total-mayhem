@@ -233,7 +233,7 @@ UnitBlueprint{
 		MuzzleSalvoDelay = 0.35,
 		MuzzleSalvoSize = 8,
 		MuzzleVelocity = 5,
-		ProjectileId = '/mods/TotalMayhem/projectiles/BRMT3BTRLproj/BRMT3BTRLproj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BRMT3BTRLproj/BRMT3BTRLproj_proj.bp',
 		ProjectileLifetimeUsesMultiplier = 14.85,
 		ProjectilesPerOnFire = 1,
 		RackBones = { {
@@ -287,7 +287,7 @@ UnitBlueprint{
 		MuzzleSalvoDelay = 0,
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 55,
-		ProjectileId = '/mods/TotalMayhem/projectiles/BRMT1EXTANKproj/BRMT1EXTANKproj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BRMT1EXTANKproj/BRMT1EXTANKproj_proj.bp',
 		ProjectileLifetimeUsesMultiplier = 4,
 		ProjectilesPerOnFire = 1,
 		RackBones = { {
@@ -355,7 +355,7 @@ UnitBlueprint{
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 40,
 		PrefersPrimaryWeaponTarget = true,
-		ProjectileId = '/mods/TotalMayhem/projectiles/NULLWEAPON/NULLWEAPON_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/NULLWEAPON/NULLWEAPON_proj.bp',
 		ProjectileLifetimeUsesMultiplier = 1,
 		ProjectilesPerOnFire = 1,
 		RackBones = { {

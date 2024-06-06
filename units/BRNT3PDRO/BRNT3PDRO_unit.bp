@@ -206,7 +206,7 @@ UnitBlueprint{
 		MuzzleSalvoDelay = 0,
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 31,
-		ProjectileId = '/mods/TotalMayhem/projectiles/BRNT3PDROproj/BRNT3PDROproj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BRNT3PDROproj/BRNT3PDROproj_proj.bp',
 		ProjectileLifetimeUsesMultiplier = 15.15,
 		ProjectilesPerOnFire = 4,
 		RackBones = { {
@@ -249,7 +249,7 @@ UnitBlueprint{
 		Turreted = true,
 		WeaponCategory = 'Artillery',
 		WeaponRepackTimeout = 5,
-		WeaponUnpackAnimation = '/mods/TotalMayhem/units/BRNT3PDRO/BRNT3PDRO_deploy.sca',
+		WeaponUnpackAnimation = '/mods/fa-total-mayhem/units/BRNT3PDRO/BRNT3PDRO_deploy.sca',
 		WeaponUnpackAnimationRate = 1,
 		WeaponUnpackLocksMotion = true,
 		WeaponUnpackTimeout = 5,

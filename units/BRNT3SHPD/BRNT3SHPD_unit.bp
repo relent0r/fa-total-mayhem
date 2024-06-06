@@ -213,7 +213,7 @@ UnitBlueprint{
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 50,
 		NoPause = true,
-		ProjectileId = '/mods/TotalMayhem/projectiles/BRNT3SHPDproj/BRNT3SHPDproj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BRNT3SHPDproj/BRNT3SHPDproj_proj.bp',
 		ProjectileLifetimeUsesMultiplier = 2,
 		ProjectilesPerOnFire = 1,
 		RackBones = { {
@@ -303,7 +303,7 @@ UnitBlueprint{
 		MuzzleVelocity = 5,
 		MuzzleVelocityRandomness = 0.5,
 		PrefersPrimaryWeaponTarget = true,
-		ProjectileId = '/mods/TotalMayhem/projectiles/BRNT3SHBMNEWRL2Aproj/BRNT3SHBMNEWRL2Aproj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BRNT3SHBMNEWRL2Aproj/BRNT3SHBMNEWRL2Aproj_proj.bp',
 		ProjectileLifetimeUsesMultiplier = 5,
 		ProjectilesPerOnFire = 1,
 		RackBones = { {
@@ -336,7 +336,7 @@ UnitBlueprint{
 		Turreted = false,
 		WeaponCategory = 'Direct Fire',
 		WeaponRepackTimeout = 2,
-		WeaponUnpackAnimation = '/mods/TotalMayhem/units/BRNT3SHPD/BRNT3SHPD_deploy.sca',
+		WeaponUnpackAnimation = '/mods/fa-total-mayhem/units/BRNT3SHPD/BRNT3SHPD_deploy.sca',
 		WeaponUnpackAnimationRate = 2.6,
 		WeaponUnpackLocksMotion = false,
 		WeaponUnpackTimeout = 2,

@@ -80,7 +80,7 @@ UnitBlueprint{
 			'<LOC ability_torpedo>Torpedoes',
 		},
 		AnimationDeath = { {
-			Animation = '/mods/TotalMayhem/units/BROST3BSHIP/BROST3BSHIP_Death.sca',
+			Animation = '/mods/fa-total-mayhem/units/BROST3BSHIP/BROST3BSHIP_Death.sca',
 			AnimationRateMax = 0.1,
 			AnimationRateMin = 0.1,
 			Weight = 40,
@@ -98,7 +98,7 @@ UnitBlueprint{
 		Mesh = {
 			IconFadeInZoom = 130,
 			LODs = { {
-				AlbedoName = '/mods/TotalMayhem/units/AeonTexture/AeonTexture_albedo.dds',
+				AlbedoName = '/mods/fa-total-mayhem/units/AeonTexture/AeonTexture_albedo.dds',
 				LODCutoff = 650,
 				ShaderName = 'Aeon',
 			} },
@@ -607,7 +607,7 @@ UnitBlueprint{
 		MuzzleSalvoDelay = 0,
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 50,
-		ProjectileId = '/mods/TotalMayhem/projectiles/BROST3BSHIPproj/BROST3BSHIPproj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BROST3BSHIPproj/BROST3BSHIPproj_proj.bp',
 		ProjectilesPerOnFire = 2,
 		RackBones = { {
 			MuzzleBones = { 'Muzzle02', 'Muzzle03' },
@@ -683,7 +683,7 @@ UnitBlueprint{
 		MuzzleSalvoDelay = 0,
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 50,
-		ProjectileId = '/mods/TotalMayhem/projectiles/BROST3BSHIPproj/BROST3BSHIPproj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BROST3BSHIPproj/BROST3BSHIPproj_proj.bp',
 		ProjectilesPerOnFire = 2,
 		RackBones = { {
 			MuzzleBones = { 'Muzzle04', 'Muzzle05' },

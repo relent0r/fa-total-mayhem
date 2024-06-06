@@ -86,22 +86,22 @@ UnitBlueprint{
 	Display = {
 		Abilities = { '<LOC ability_amphibious>Amphibious' },
 		AnimationDeath = { {
-			Animation = '/mods/TotalMayhem/units/BRMT3RAP/BRMT3RAP_Death.sca',
+			Animation = '/mods/fa-total-mayhem/units/BRMT3RAP/BRMT3RAP_Death.sca',
 			AnimationRateMax = 1.77,
 			AnimationRateMin = 1.77,
 			Weight = 160,
 		}, {
-			Animation = '/mods/TotalMayhem/units/BRMT3RAP/BRMT3RAP_Death2.sca',
+			Animation = '/mods/fa-total-mayhem/units/BRMT3RAP/BRMT3RAP_Death2.sca',
 			AnimationRateMax = 1.77,
 			AnimationRateMin = 1.77,
 			Weight = 160,
 		} },
-		AnimationWalk = '/mods/TotalMayhem/units/BRMT3RAP/BRMT3RAP_Walk.sca',
+		AnimationWalk = '/mods/fa-total-mayhem/units/BRMT3RAP/BRMT3RAP_Walk.sca',
 		AnimationWalkRate = 3.3,
 		Mesh = {
 			IconFadeInZoom = 130,
 			LODs = { {
-				AlbedoName = '/mods/TotalMayhem/units/CybranTexture/CybranTexture_albedo.dds',
+				AlbedoName = '/mods/fa-total-mayhem/units/CybranTexture/CybranTexture_albedo.dds',
 				LODCutoff = 240,
 				ShaderName = 'Insect',
 			} },
@@ -233,7 +233,7 @@ UnitBlueprint{
 		MuzzleSalvoDelay = 0,
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 40,
-		ProjectileId = '/mods/TotalMayhem/projectiles/BRMT3RAPproj/BRMT3RAPproj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BRMT3RAPproj/BRMT3RAPproj_proj.bp',
 		RackBones = { {
 			MuzzleBones = { 'gunmuzzle01' },
 			RackBone = 'gun01',
@@ -316,7 +316,7 @@ UnitBlueprint{
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 40,
 		PrefersPrimaryWeaponTarget = true,
-		ProjectileId = '/mods/TotalMayhem/projectiles/BRMT3RAPproj/BRMT3RAPproj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BRMT3RAPproj/BRMT3RAPproj_proj.bp',
 		RackBones = { {
 			MuzzleBones = { 'gunmuzzle04' },
 			RackBone = 'topgun01',
@@ -384,7 +384,7 @@ UnitBlueprint{
 		MuzzleSalvoDelay = 0.2,
 		MuzzleSalvoSize = 4,
 		MuzzleVelocity = 30,
-		ProjectileId = '/mods/TotalMayhem/projectiles/BRMT3BTRLproj/BRMT3BTRLproj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BRMT3BTRLproj/BRMT3BTRLproj_proj.bp',
 		RackBones = { {
 			MuzzleBones = { 'rl01', 'rl02', 'rl03', 'rl04' },
 			RackBone = 'Turret',
@@ -439,7 +439,7 @@ UnitBlueprint{
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 40,
 		PrefersPrimaryWeaponTarget = true,
-		ProjectileId = '/mods/TotalMayhem/projectiles/NULLWEAPON/NULLWEAPON_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/NULLWEAPON/NULLWEAPON_proj.bp',
 		ProjectileLifetimeUsesMultiplier = 1,
 		ProjectilesPerOnFire = 1,
 		RackBones = { {

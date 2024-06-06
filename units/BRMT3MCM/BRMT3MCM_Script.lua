@@ -16,7 +16,7 @@ local TDFRiotWeapon = WeaponsFile2.TDFRiotWeapon
 local CCannonMolecularWeapon = WeaponsFile.CCannonMolecularWeapon
 local SCUDeathWeapon = import('/lua/sim/defaultweapons.lua').SCUDeathWeapon
 local TDFGaussCannonWeapon = WeaponsFile2.TDFLandGaussCannonWeapon
-local TMEffectTemplate = import('/mods/TotalMayhem/lua/TMEffectTemplates.lua')
+local TMEffectTemplate = import('/mods/fa-total-mayhem/lua/TMEffectTemplates.lua')
 local EffectTemplate = import('/lua/EffectTemplates.lua')
 
 BRMT3MCM = Class(CWalkingLandUnit){

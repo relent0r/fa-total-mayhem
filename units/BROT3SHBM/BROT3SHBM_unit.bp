@@ -93,10 +93,10 @@ UnitBlueprint{
 			'<LOC ability_stun>EMP Weapon',
 		},
 		AnimationDeath = { {
-			Animation = '/mods/TotalMayhem/units/BROT3SHBM/BROT3SHBM_Death.sca',
+			Animation = '/mods/fa-total-mayhem/units/BROT3SHBM/BROT3SHBM_Death.sca',
 			Weight = 100,
 		} },
-		AnimationWalk = '/mods/TotalMayhem/units/BROT3SHBM/BROT3SHBM_Walk.sca',
+		AnimationWalk = '/mods/fa-total-mayhem/units/BROT3SHBM/BROT3SHBM_Walk.sca',
 		AnimationWalkRate = 2,
 		Mesh = {
 			IconFadeInZoom = 130,
@@ -252,7 +252,7 @@ UnitBlueprint{
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 65,
 		PrefersPrimaryWeaponTarget = true,
-		ProjectileId = '/mods/TotalMayhem/projectiles/BROT3SHBMproj/BROT3SHBMproj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BROT3SHBMproj/BROT3SHBMproj_proj.bp',
 		ProjectileLifetimeUsesMultiplier = 3,
 		ProjectilesPerOnFire = 2,
 		RackBones = { {
@@ -408,7 +408,7 @@ UnitBlueprint{
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 95,
 		PrefersPrimaryWeaponTarget = true,
-		ProjectileId = '/mods/TotalMayhem/projectiles/BROT3SHBMEMPproj/BROT3SHBMEMPproj_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/BROT3SHBMEMPproj/BROT3SHBMEMPproj_proj.bp',
 		ProjectileLifetimeUsesMultiplier = 2,
 		ProjectilesPerOnFire = 1,
 		RackBones = { {
@@ -477,7 +477,7 @@ UnitBlueprint{
 		MuzzleSalvoSize = 1,
 		MuzzleVelocity = 40,
 		PrefersPrimaryWeaponTarget = true,
-		ProjectileId = '/mods/TotalMayhem/projectiles/NULLWEAPON/NULLWEAPON_proj.bp',
+		ProjectileId = '/mods/fa-total-mayhem/projectiles/NULLWEAPON/NULLWEAPON_proj.bp',
 		ProjectileLifetimeUsesMultiplier = 1,
 		ProjectilesPerOnFire = 1,
 		RackBones = { {

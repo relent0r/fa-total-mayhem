@@ -23,7 +23,7 @@ EmitterBlueprint{
 	LowFidelity = true,
 	MedFidelity = true,
 	HighFidelity = true,
-	Texture = [[/mods/TotalMayhem/textures/particles/mayhemmk4blueflames.dds]],
+	Texture = [[/mods/fa-total-mayhem/textures/particles/mayhemmk4blueflames.dds]],
 	RampTexture = [[/textures/particles/ramp_fire_12.dds]],
 	XDirectionCurve = {
 		XRange = 10.00,
