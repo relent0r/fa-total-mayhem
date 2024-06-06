@@ -1,0 +1,21 @@
+{
+  "name": "fa-totalmayhem",
+  "version": "1.0.0",
+  "description": "A community maintained version of the Total Mayhem mod made by Burnie222",
+  "scripts": {
+    "format": "prettier \"**.{lua,bp}\" --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FAForever/fa-total-mayhem.git"
+  },
+  "author": "Burnie222",
+  "bugs": {
+    "url": "https://github.com/FAForever/fa-total-mayhem/issues"
+  },
+  "homepage": "https://github.com/FAForever/fa-total-mayhem#readme",
+  "dependencies": {
+    "@prettier/plugin-lua": "^0.0.3",
+    "prettier": "^3.2.5"
+  }
+}
