@@ -24,13 +24,23 @@
 
 <img src="banner.png" />
 
-This repository contains all the assets for the version of [Total Mayhem](https://www.moddb.com/mods/total-mayhem1) that is fully compatible with [FAForever](https://www.faforever.com/). The goal of this repository it to allow the community to maintain the mod. If you found a bug then feel free to [create an issue](). For additional resources and assistance you can visit the Discord server that is linked above. If you'd like to try to fix the mod yourself then do find the the channel called [Modification Resources](https://discord.gg/eQZRwhAP) that lists all the resources you may need on your modding journey!
+This repository contains all the assets for the version of [Total Mayhem](https://www.moddb.com/mods/total-mayhem1) that is fully compatible with [FAForever](https://www.faforever.com/). The goal of this repository it to allow the community to maintain Total Mayhem. If you found a bug then feel free to [create an issue](https://github.com/FAForever/fa-total-mayhem/issues). For additional resources and assistance you can visit the Discord server that is linked above. If you'd like to help maintain Total Mayhem then do find the the channel called [Modification Resources](https://discord.gg/eQZRwhAP) that lists all the resources you may need on your modding journey!
 
 Promotion material related to the mod:
 
 - [Trailer on Youtube 1](https://www.youtube.com/watch?v=rNLC96tXn_0)
 - [Trailer on YouTube 2](https://www.youtube.com/watch?v=VL9jFmC1lmI)
 - [Trailer on Youtube 3](https://www.youtube.com/watch?v=W7CyMsra_aM)
+
+## Credits
+
+- Burnie22 (author)
+- OrangeKnight (models, textures)
+- Brandon (models, textures)
+- adamstrange (custom sounds)
+- Domino (scripts)
+
+With thanks to DDDX for providing us with the permission to put this up here, who himself got the permission from Burnie22.
 
 ## Related repositories
 
