@@ -1,6 +1,6 @@
 name = 'Total Mayhem'
-uid = '62e2j64a-TOMA-3652-01370-146as555a8u3'
-version = 137
+uid = 'fa-total-mayhem-138'
+version = 138
 copyright = 'Burnie'
 description = '(For all gameversions) This mod adds alot more units with full AI support. Prepare for mayhem!'
 author = 'Burnie'
