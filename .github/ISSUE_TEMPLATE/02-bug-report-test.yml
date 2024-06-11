@@ -1,0 +1,10 @@
+name: "Bug report"
+body:
+- type: textarea
+  id: name_1
+  attributes:
+    label: Name
+- type: textarea
+  id: name_2
+  attributes:
+    label: Name
