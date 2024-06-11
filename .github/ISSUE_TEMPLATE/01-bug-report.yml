@@ -1,13 +1,12 @@
 name: Bug report
+title: '[Bug]: '
 description: A template you can use to report bugs and/or unexpected behavior.
-labels: ['Bug']
+labels: ['bug']
 
 body:
   - type: markdown
     attributes:
       value: |
-        - [x] Bug
-
         Thank you for reporting a bug! This template will help you with creating a report that we can use to understand the bug.
 
         - This repository is maintained by volunteers, it may take a while for them to come back to you.
