@@ -71,6 +71,7 @@ jobs:
                   mkdir tools/temp/lua
 
                   mv -f fa-total-mayhem/units/* tools/temp/units
+                  mv fa-total-mayhem/lua/version.lua tools/temp/lua/version.lua
 
             - name: Run the script
               shell: bash
