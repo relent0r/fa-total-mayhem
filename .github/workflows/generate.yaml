@@ -77,7 +77,8 @@ jobs:
               shell: bash
               working-directory: tools # script expects this directory
               run: |
-                  pwsh ./index.ps1 -target ../app -inputUnits "tools/temp/units" -inputLua "tools/temp/lua"
+                  ls "temp/units"
+                  pwsh ./index.ps1 -target ../app -inputUnits "temp/units" -inputLua "temp/lua"
 
             # Store the created files
 
