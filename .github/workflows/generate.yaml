@@ -61,7 +61,7 @@ jobs:
             - name: Install JSON module for Lua
               run: luarocks install dkjson
 
-            # Prepare the script context 
+            # Prepare the script context
 
             - name: Prepare for the script
               shell: bash
