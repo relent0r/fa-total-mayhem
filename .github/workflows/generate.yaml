@@ -35,8 +35,8 @@ jobs:
             - name: Checkout spooky db code
               uses: actions/checkout@v4
               with:
-                  repository: FAForever/spooky-db
-                  ref: master
+                  repository: relent0r/spooky-db
+                  ref: test/updatetools
 
             - name: Checkout FAForever blueprints and lua files
               uses: actions/checkout@v4
