@@ -21,7 +21,6 @@
 name: generate
 
 on:
-    push:
     workflow_dispatch:
     workflow_call:
 
