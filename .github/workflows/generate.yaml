@@ -35,15 +35,15 @@ jobs:
             - name: Checkout spooky db code
               uses: actions/checkout@v4
               with:
-                  repository: relent0r/spooky-db
-                  ref: test/updatetools
+                  repository: FAForever/spooky-db
+                  ref: master
 
             - name: Checkout FAForever blueprints and lua files
               uses: actions/checkout@v4
               with:
-                  repository: relent0r/fa-total-mayhem
+                  repository: FAForever/fa-total-mayhem
                   path: fa-total-mayhem
-                  ref: feat/workflow-generate
+                  ref: develop
                   sparse-checkout-cone-mode: false
                   sparse-checkout: |
                       *.bp
