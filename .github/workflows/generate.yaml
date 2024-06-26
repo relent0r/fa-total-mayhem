@@ -41,7 +41,9 @@ jobs:
             - name: Checkout FAF Repository
               uses: actions/checkout@v4
               with:
+                repository: FAForever/fa
                 path: fa
+                ref: develop
                 sparse-checkout-cone-mode: |
                   wiki
                   loc
@@ -50,7 +52,7 @@ jobs:
                   lua/sim/AdjacencyBuffs.lua
                   lua/system/Blueprints.lua
 
-            - name: Checkout FAForever blueprints and lua files
+            - name: Checkout Total Mayhem repository
               uses: actions/checkout@v4
               with:
                   repository: relent0r/fa-total-mayhem
