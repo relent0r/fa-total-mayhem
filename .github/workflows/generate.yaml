@@ -60,6 +60,7 @@ jobs:
                   ref: feat/workflow-generate
                   sparse-checkout-cone-mode: false
                   sparse-checkout: |
+                      wiki
                       units/*_unit.bp
                       units/*_LOD0.scm
                       projectiles
