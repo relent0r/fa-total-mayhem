@@ -41,7 +41,7 @@ jobs:
             - name: Checkout FAF Repository
               uses: actions/checkout@v4
               with:
-                path: ./fa
+                path: fa
                 sparse-checkout-cone-mode: |
                   wiki
                   loc
