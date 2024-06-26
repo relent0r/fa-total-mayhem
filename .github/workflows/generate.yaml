@@ -80,16 +80,11 @@ jobs:
             - name: Create wiki directory
               run: |
                 sudo mkdir fa-total-mayhem/wiki
-
-            # Prepare the script context 
-
-            - name: Replace run.lua
-              run: |
-                sudo mv fa-total-mayhem/wiki/Run.lua brew-wiki-gen/Run.lua
+                ls fa-total-mayhem
   
             - name: Execute lua run
               run: |
-                lua brew-wiki-gen/Run.lua --OutputDirectory="fa-total-mayhem.wiki/" --WikiGeneratorDirectory="brew-wiki-gen/" --FADirectory="fa-total-mayhem/"
+                lua fa-total-mayhem/wiki/Run.lua --OutputDirectory="fa-total-mayhem.wiki/" --WikiGeneratorDirectory="brew-wiki-gen/" --FADirectory="fa-total-mayhem/"
 
             # Store the created files
 
