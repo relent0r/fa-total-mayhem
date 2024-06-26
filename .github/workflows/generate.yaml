@@ -79,7 +79,6 @@ jobs:
 
             - name: Create wiki directory
               run: |
-                sudo mkdir fa-total-mayhem/wiki
                 ls fa-total-mayhem
   
             - name: Execute lua run
