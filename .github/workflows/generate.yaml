@@ -76,6 +76,10 @@ jobs:
             - name: Install JSON module for Lua
               run: luarocks install dkjson
 
+            - name: Create wiki directory
+              run: |
+                sudo mkdir fa-total-mayhem/wiki
+
             # Prepare the script context 
 
             - name: Replace run.lua
