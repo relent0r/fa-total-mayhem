@@ -48,8 +48,8 @@ EnvironmentData = {
     icon = false,
     location = FADirectory,
 
-    GenerateWikiPages = true,  --Generate pages for env blueprints
-    RebuildBlueprints = true,  --Rebuild env blueprints
+    GenerateWikiPages = false,  --Generate pages for env blueprints
+    RebuildBlueprints = false,  --Rebuild env blueprints
     RunSanityChecks = false,   --Sanity check env bps
 
     Lua = FADirectory,
