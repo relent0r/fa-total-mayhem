@@ -84,7 +84,7 @@ jobs:
 
             - name: Replace run.lua
               run: |
-                sudo mv fa/wiki/Run.lua brew-wiki-gen/Run.lua
+                sudo mv fa-total-mayhem/wiki/Run.lua brew-wiki-gen/Run.lua
   
             - name: Execute lua run
               run: |
