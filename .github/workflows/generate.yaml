@@ -84,7 +84,7 @@ jobs:
   
             - name: Execute lua run
               run: |
-                lua fa-total-mayhem/wiki/Run.lua --OutputDirectory="fa-total-mayhem.wiki/" --WikiGeneratorDirectory="brew-wiki-gen/" --FADirectory="fa-total-mayhem/"
+                lua fa-total-mayhem/wiki/Run.lua --OutputDirectory="fa-total-mayhem.wiki/" --WikiGeneratorDirectory="brew-wiki-gen/" --FADirectory="fa"
 
             # Store the created files
 
