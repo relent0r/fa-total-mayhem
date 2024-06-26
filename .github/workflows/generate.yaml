@@ -31,22 +31,35 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             # Checking repositories
-            - name: Checkout spooky db code
+            - name: Checkout Brewlan Wikigen Repository
               uses: actions/checkout@v4
               with:
-                  repository: FAForever/spooky-db
-                  ref: master
+                repository: The-Balthazar/BrewWikiGen
+                path: ./brew-wiki-gen
+            # FA repo is sparse checkout as it is quite large and we dont won't to incur higher action minutes for no reason
+            - name: Checkout FAF Repository
+              uses: actions/checkout@v4
+              with:
+                path: ./fa
+                sparse-checkout-cone-mode: |
+                  wiki
+                  loc
+                  lua/ui/help/unitscription.lua
+                  lua/ui/help/tooltips.lua
+                  lua/sim/AdjacencyBuffs.lua
+                  lua/system/Blueprints.lua
 
             - name: Checkout FAForever blueprints and lua files
               uses: actions/checkout@v4
               with:
-                  repository: FAForever/fa-total-mayhem
+                  repository: relent0r/fa-total-mayhem
                   path: fa-total-mayhem
-                  ref: develop
+                  ref: feat/workflow-generate
                   sparse-checkout-cone-mode: false
                   sparse-checkout: |
-                      *.bp
-                      *.lua
+                      units/*_unit.bp
+                      units/*_LOD0.scm
+                      projectiles
 
             # Prepare the Lua context
 
@@ -62,27 +75,19 @@ jobs:
 
             # Prepare the script context 
 
-            - name: Prepare for the script
-              shell: bash
+            - name: Replace run.lua
               run: |
-                  mkdir tools/temp
-                  mkdir tools/temp/units
-                  mkdir tools/temp/lua
-
-                  mv -f fa-total-mayhem/units/* tools/temp/units
-                  mv fa-total-mayhem/lua/version.lua tools/temp/lua/version.lua
-
-            - name: Run the script
-              shell: bash
-              working-directory: tools # script expects this directory
+                sudo mv fa/wiki/Run.lua brew-wiki-gen/Run.lua
+  
+            - name: Execute lua run
               run: |
-                  pwsh ./index.ps1 -target ../app -inputUnits "temp/units" -inputLua "temp/lua"
+                lua brew-wiki-gen/Run.lua --OutputDirectory="fa-total-mayhem.wiki/" --WikiGeneratorDirectory="brew-wiki-gen/" --FADirectory="fa-total-mayhem/"
 
             # Store the created files
 
             - name: Create artifact
               uses: actions/upload-artifact@v4
               with:
-                  name: spookydb-fa-total-mayhem-generated-files
+                  name: fa-total-mayhem-generated-wiki-files
                   path: |
-                      app/data
+                      fa-total-mayhem.wiki
