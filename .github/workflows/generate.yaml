@@ -93,4 +93,4 @@ jobs:
               with:
                   name: fa-total-mayhem-generated-wiki-files
                   path: |
-                      fa-total-mayhem.wiki
+                      fa-total-mayhem/wiki
