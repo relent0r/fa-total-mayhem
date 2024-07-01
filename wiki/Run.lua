@@ -104,7 +104,7 @@ CleanupOptions = {
 }
 
 ModDirectories = { -- In order
-    'fa-total-mayhem/',
+    'mods/fa-total-mayhem/',
     -- 'C:/BrewLAN/mods/BrewLAN_Units/BrewAir/',
     -- 'C:/BrewLAN/mods/BrewLAN_Units/BrewIntel/',
     -- 'C:/BrewLAN/mods/BrewLAN_Units/BrewMonsters/',
