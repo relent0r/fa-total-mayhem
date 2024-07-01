@@ -56,7 +56,7 @@ jobs:
               uses: actions/checkout@v4
               with:
                   repository: relent0r/fa-total-mayhem
-                  path: fa-total-mayhem
+                  path: mods/fa-total-mayhem
                   ref: feat/workflow-generate
                   sparse-checkout-cone-mode: false
                   sparse-checkout: |
@@ -80,11 +80,11 @@ jobs:
 
             - name: Create wiki directory
               run: |
-                ls fa-total-mayhem
+                ls mods/fa-total-mayhem
   
             - name: Execute lua run
               run: |
-                lua fa-total-mayhem/wiki/Run.lua --OutputDirectory="fa-total-mayhem/wiki/" --WikiGeneratorDirectory="brew-wiki-gen/" --FADirectory="fa"
+                lua fa-total-mayhem/wiki/Run.lua --OutputDirectory="mods/fa-total-mayhem/wiki/" --WikiGeneratorDirectory="brew-wiki-gen/" --FADirectory="fa"
 
             # Store the created files
 
