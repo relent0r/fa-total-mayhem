@@ -50,7 +50,10 @@ jobs:
           uses: actions/upload-artifact@v4
           with:
             name: Wiki
-            path: mods/fa-total-mayhem/wiki
+            path: |
+              mods/fa-total-mayhem/wiki
+              !./mods/fa-total-mayhem/wiki/Run.lua
+              !./mods/fa-total-mayhem/wiki/icons-convert-unit.sh
       
         # - name: Store the game version
         #   id: gameVersionJSON # but it is a string here!
