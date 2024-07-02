@@ -18,7 +18,7 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-name: generate
+name: Total Mayhem Generator for Blueprints
 
 on:
     push:
@@ -26,7 +26,7 @@ on:
     workflow_call:
 
 jobs:
-    generate:
+    generate-blueprints:
         name: generate
         permissions: write-all
         runs-on: ubuntu-latest
