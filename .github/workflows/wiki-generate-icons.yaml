@@ -43,7 +43,7 @@ jobs:
 
         - name: Move Generated Icons
           run: |
-            mv -f fa/wiki/generated/units/*.png mods/fa-total-mayhem.wiki/icons/units
+            mv -f mods/fa-total-mayhem/wiki/generated/units/*.png mods/fa-total-mayhem.wiki/icons/units
 
         - name: Upload as artifact
           uses: actions/upload-artifact@v4
