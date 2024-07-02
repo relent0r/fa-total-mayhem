@@ -40,7 +40,7 @@ jobs:
           working-directory: fa-total-mayhem
           run: |
             wiki/icons-convert-unit.sh
-
+ 
         - name: Move Strategic Icons
           run: |
             mv -f fa/wiki/generated/units/*.png fa.wiki/icons/units
