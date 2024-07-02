@@ -84,7 +84,6 @@ jobs:
             - name: Create wiki directory
               run: |
                 ls mods/fa-total-mayhem
-                mkdir mods/fa-total-mayhem/wiki/icons
   
             - name: Execute lua run
               run: |
