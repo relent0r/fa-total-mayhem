@@ -80,7 +80,7 @@ jobs:
 
             - name: Create wiki directory
               run: |
-                ls mods/fa-total-mayhem
+                ls mods/fa-total-mayhem/units/BRMAT1EXGS
   
             - name: Execute lua run
               run: |
