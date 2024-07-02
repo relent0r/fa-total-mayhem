@@ -162,7 +162,7 @@ Logging = { -- Functional logs
         Warn  = true, -- WARN
     },
 
-    ExcludedBlueprints = false,
+    ExcludedBlueprints = true,
     BlueprintTotals    = true,
     MissingUnitImage   = true,
 
