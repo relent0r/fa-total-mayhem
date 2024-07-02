@@ -80,7 +80,7 @@ jobs:
             - name: Create wiki directory
               run: |
                 ls mods/fa-total-mayhem
-                mkdir mods/fa-total-mayhem/icons/units
+                mkdir mods/fa-total-mayhem/wiki/icons/units
   
             - name: Execute lua run
               run: |
