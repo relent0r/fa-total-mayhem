@@ -30,6 +30,10 @@ jobs:
         name: generate
         permissions: write-all
         runs-on: ubuntu-latest
+        defaults:
+          run:
+            shell: bash
+
         steps:
             # Checking repositories
             - name: Checkout Brewlan Wikigen Repository
