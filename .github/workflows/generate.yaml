@@ -58,8 +58,7 @@ jobs:
                   repository: relent0r/fa-total-mayhem
                   path: mods/fa-total-mayhem
                   ref: feat/workflow-generate
-                  sparse-checkout-cone-mode: false
-                  sparse-checkout: |
+                  sparse-checkout-cone-mode: |
                       mod_info.lua
                       wiki
                       units/*_unit.bp
