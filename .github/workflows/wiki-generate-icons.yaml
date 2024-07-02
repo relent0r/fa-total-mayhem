@@ -29,7 +29,7 @@ jobs:
           with:
             repository: relent0r/fa-total-mayhem.wiki
             ref: master
-            path: ./fa-total-mayhem.wiki
+            path: ./mods/fa-total-mayhem.wiki
 
         - name: Install Image Magick
           run: |
@@ -37,19 +37,19 @@ jobs:
 
         # copy strategic and unit icons and convert them to PNGs. Assume this should be going to the wiki location not the fa repo
         - name: Convert Strategic Icons
-          working-directory: fa-total-mayhem
+          working-directory: mods/fa-total-mayhem
           run: |
             wiki/icons-convert-unit.sh
- 
-        - name: Move Strategic Icons
+
+        - name: Move Generated Icons
           run: |
-            mv -f fa/wiki/generated/units/*.png fa.wiki/icons/units
+            mv -f fa/wiki/generated/units/*.png mods/fa-total-mayhem.wiki/icons/units
 
         - name: Upload as artifact
           uses: actions/upload-artifact@v4
           with:
             name: Wiki
-            path: fa-total-mayhem.wiki
+            path: mods/fa-total-mayhem.wiki
       
         # - name: Store the game version
         #   id: gameVersionJSON # but it is a string here!
