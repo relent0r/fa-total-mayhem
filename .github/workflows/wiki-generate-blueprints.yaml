@@ -38,6 +38,11 @@ jobs:
 
         steps:
             # Checking repositories
+            - name: Download Icons
+              uses: actions/download-artifact@v4
+              with:
+                name: generated-icons
+
             - name: Checkout Brewlan Wikigen Repository
               uses: actions/checkout@v4
               with:
@@ -89,9 +94,9 @@ jobs:
             - name: Install JSON module for Lua
               run: luarocks install dkjson
 
-            - name: Create wiki directory
+            - name: Debug Downloaded stuff
               run: |
-                ls mods/fa-total-mayhem/wiki
+                ls -R
   
             - name: Execute lua run
               run: |
