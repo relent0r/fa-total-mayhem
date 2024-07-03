@@ -96,7 +96,7 @@ jobs:
                 lua mods/fa-total-mayhem/wiki/Run.lua --OutputDirectory="fa-total-mayhem.wiki" --WikiGeneratorDirectory="brew-wiki-gen/" --FADirectory="fa"
 
             # Store the created files
- 
+
             - name: Create artifact
               uses: actions/upload-artifact@v4
               with:
