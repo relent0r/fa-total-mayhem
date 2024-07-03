@@ -111,10 +111,19 @@ jobs:
               run: |
                 version=$(grep "version" mods/fa-total-mayhem/mod_info.lua | sed -E "s/version = ([0-9]+)/\1/")
                 echo "VERSION=$version" >> $GITHUB_ENV
+
+            - name: Move default mod icons
+              run: |
+                [ ! -d "fa-total-mayhem.wiki/icons/mods" ] && mkdir -p "fa-total-mayhem.wiki/icons/mods"
+                mv -f mods/fa-total-mayhem/wiki/icons/mods/total-mayhem.png fa-total-mayhem.wiki/icons/mods
+                [ ! -d "fa-total-mayhem.wiki/images/mods" ] && mkdir -p "fa-total-mayhem.wiki/images/mods"
+                mv -f mods/fa-total-mayhem/wiki/images/mods/total-mayhem.png fa-total-mayhem.wiki/images/mods
   
             - name: Execute lua run
               run: |
                 lua mods/fa-total-mayhem/wiki/Run.lua --OutputDirectory="fa-total-mayhem.wiki/" --WikiGeneratorDirectory="brew-wiki-gen/" --FADirectory="fa"
+
+
 
             # Store the created files
  
