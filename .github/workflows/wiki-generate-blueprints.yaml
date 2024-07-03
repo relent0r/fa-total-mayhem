@@ -26,6 +26,8 @@ on:
     workflow_call:
 
 jobs:
+    generate-icons:
+      uses: ./.github/workflows/wiki-generate-icons.yaml
     generate-blueprints:
         name: generate
         permissions: write-all

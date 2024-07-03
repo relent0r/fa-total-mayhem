@@ -1,8 +1,8 @@
 name: Total Mayhem Wiki Generator for icons
 
 on:
-  push:
   workflow_dispatch:
+  workflow_call:
 
 jobs:
 
