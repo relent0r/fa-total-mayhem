@@ -38,11 +38,16 @@ jobs:
             shell: bash
 
         steps:
+            - name: Debug Downloaded stuff
+              run: |
+                mkdir wiki
+
             # Checking repositories
             - name: Download Icons
               uses: actions/download-artifact@v4
               with:
                 name: generated-icons
+                path: wiki/icons
 
             - name: Checkout Brewlan Wikigen Repository
               uses: actions/checkout@v4
@@ -94,14 +99,10 @@ jobs:
 
             - name: Install JSON module for Lua
               run: luarocks install dkjson
-
-            - name: Debug Downloaded stuff
-              run: |
-                ls -R
   
             - name: Execute lua run
               run: |
-                lua mods/fa-total-mayhem/wiki/Run.lua --OutputDirectory="fa-total-mayhem.wiki/" --WikiGeneratorDirectory="brew-wiki-gen/" --FADirectory="fa"
+                lua mods/fa-total-mayhem/wiki/Run.lua --OutputDirectory="wiki/" --WikiGeneratorDirectory="brew-wiki-gen/" --FADirectory="fa"
 
             # Store the created files
  
@@ -111,3 +112,7 @@ jobs:
                   name: fa-total-mayhem-generated-wiki-files
                   path: |
                     fa-total-mayhem.wiki
+                    
+            - name: Debug Downloaded stuff
+              run: |
+                ls -R
