@@ -90,6 +90,10 @@ jobs:
                 name: generated-icons
                 path: fa-total-mayhem.wiki
 
+            - name: Debug wiki location
+              run: |
+                ls -R fa-total-mayhem.wiki
+
             # Prepare the Lua context
 
             - name: Install Lua
