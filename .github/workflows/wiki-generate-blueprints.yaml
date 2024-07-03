@@ -69,6 +69,12 @@ jobs:
                       units/*_LOD0.scm
                       projectiles
 
+            - name: Checkout FAF Wiki Repository
+              uses: actions/checkout@v4
+              with:
+                repository: relent0r/fa-total-mayhem.wiki
+                path: ./fa-total-mayhem.wiki
+
             # Prepare the Lua context
 
             - name: Install Lua
@@ -87,7 +93,7 @@ jobs:
   
             - name: Execute lua run
               run: |
-                lua mods/fa-total-mayhem/wiki/Run.lua --OutputDirectory="mods/fa-total-mayhem/wiki/" --WikiGeneratorDirectory="brew-wiki-gen/" --FADirectory="fa"
+                lua mods/fa-total-mayhem/wiki/Run.lua --OutputDirectory="fa-total-mayhem.wiki" --WikiGeneratorDirectory="brew-wiki-gen/" --FADirectory="fa"
 
             # Store the created files
 
@@ -96,4 +102,4 @@ jobs:
               with:
                   name: fa-total-mayhem-generated-wiki-files
                   path: |
-                      mods/fa-total-mayhem/wiki
+                    fa-total-mayhem.wiki
