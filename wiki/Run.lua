@@ -128,6 +128,7 @@ BlueprintIdExclusions = { -- Excludes blueprints with any of these IDs (case ins
     "ura0002O",     -- Cybran build drone
     "ura0003O",     -- Cybran build drone
     "XRO4001",      -- Remains of Dostya
+    "ura0001",      -- Cybran build drone
 }
 
 FooterCategories = { -- In order
