@@ -24,13 +24,6 @@ jobs:
               sparse-checkout-cone-mode: |
                 icons/units
 
-        - name: Checkout FAF Wiki Repository
-          uses: actions/checkout@v4
-          with:
-            repository: FAForever/fa-total-mayhem.wiki
-            ref: master
-            path: ./mods/fa-total-mayhem.wiki
-
         - name: Install Image Magick
           run: |
             sudo apt-get install -y imagemagick
