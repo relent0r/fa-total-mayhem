@@ -24,7 +24,7 @@ on:
     push:
     workflow_dispatch:
     workflow_call:
- 
+
 jobs:
     generate-blueprints:
         name: generate
