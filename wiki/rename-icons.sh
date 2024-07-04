@@ -29,7 +29,7 @@ for name in "$sourcedir"/*; do
   if [[ "${name,,}" == *icon.png ]]; then
     # Extract the base name without the _icon.png part
     base=$(basename "$name")
-    newname=$(echo "${base%_icon.png}" | tr '[:lower:]' '[:upper:]')_icon.png
+    newname=$(echo "$base" | sed -E 's/[iI][cC][oO][nN]/icon/g')
     
     # Copy the file to the target directory with the new name
     cp "$name" "$targetdir/$newname"

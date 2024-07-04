@@ -34,8 +34,8 @@ jobs:
           run: |
             wiki/icons-convert-unit.sh
 
-        # copy strategic and unit icons and convert them to PNGs. Assume this should be going to the wiki location not the fa repo
-        - name: Convert Strategic Icons
+        # Rename the generated icons to the correct case so that the wiki generator will play nice.
+        - name: Rename generated icon names
           working-directory: mods/fa-total-mayhem
           run: |
             wiki/rename-icons.sh wiki/generated/units wiki/generated/renamed
