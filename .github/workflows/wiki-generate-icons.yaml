@@ -24,27 +24,31 @@ jobs:
               sparse-checkout-cone-mode: |
                 icons/units
 
+        # Install Image Magick
         - name: Install Image Magick
           run: |
             sudo apt-get install -y imagemagick
 
-        # copy strategic and unit icons and convert them to PNGs. Assume this should be going to the wiki location not the fa repo
+        # copy unit icons and convert them to PNGs
         - name: Convert Strategic Icons
           working-directory: mods/fa-total-mayhem
           run: |
             wiki/icons-convert-unit.sh
 
         # Rename the generated icons to the correct case so that the wiki generator will play nice.
+        # Note this also causes a problem with two specific units that use mixed case in the blueprint files
         - name: Rename generated icon names
           working-directory: mods/fa-total-mayhem
           run: |
             wiki/rename-icons.sh wiki/generated/units wiki/generated/renamed
-
+        
+        # The resulting files will then be copied into the wiki folder structure
         - name: Move Generated Icons
           run: |
             [ ! -d "mods/fa-total-mayhem/wiki/icons/units" ] && mkdir -p "mods/fa-total-mayhem/wiki/icons/units"
             mv -f mods/fa-total-mayhem/wiki/generated/renamed/*.png mods/fa-total-mayhem/wiki/icons/units
 
+        # Upload as an artifact, exclude things we dont need
         - name: Upload as artifact
           uses: actions/upload-artifact@v4
           with:

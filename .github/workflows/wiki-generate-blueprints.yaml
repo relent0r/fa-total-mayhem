@@ -25,9 +25,11 @@ on:
     workflow_call:
 
 jobs:
+    # Run icon generation for wiki
     generate-icons:
       uses: ./.github/workflows/wiki-generate-icons.yaml
     generate-blueprints:
+        # We need the icon worklow to complete or we wont have an artifact to get the icons from
         needs: [generate-icons]
         name: generate
         permissions: write-all
@@ -37,13 +39,13 @@ jobs:
             shell: bash
 
         steps:
-
+            # Check out required repositories, sparse where needed
             - name: Checkout Brewlan Wikigen Repository
               uses: actions/checkout@v4
               with:
                 repository: The-Balthazar/BrewWikiGen
                 path: ./brew-wiki-gen
-            # FA repo is sparse checkout as it is quite large and we dont won't to incur higher action minutes for no reason
+            
             - name: Checkout FAF Repository
               uses: actions/checkout@v4
               with:
@@ -76,6 +78,7 @@ jobs:
                 repository: FAForever/fa-total-mayhem.wiki
                 path: ./fa-total-mayhem.wiki
 
+            # Flush the current wiki directory. This wont actually wipe anything unless the push at the end of this workflow
             - name: Flush folder contents
               run: rm -rf fa-total-mayhem.wiki/*
 
@@ -96,13 +99,15 @@ jobs:
 
             - name: Install JSON module for Lua
               run: luarocks install dkjson
-
+  
+            # Extract the mod version for the wiki commit message
             - name: Extract mod version
               id: extract_version
               run: |
                 version=$(grep "version" mods/fa-total-mayhem/mod_info.lua | sed -E "s/version = ([0-9]+)/\1/")
                 echo "VERSION=$version" >> $GITHUB_ENV
 
+            # Copy across the Total Mayhem nuclear exlosion icon thing
             - name: Move default mod icons
               run: |
                 [ ! -d "fa-total-mayhem.wiki/icons/mods" ] && mkdir -p "fa-total-mayhem.wiki/icons/mods"
@@ -110,6 +115,7 @@ jobs:
                 [ ! -d "fa-total-mayhem.wiki/images/mods" ] && mkdir -p "fa-total-mayhem.wiki/images/mods"
                 mv -f mods/fa-total-mayhem/wiki/images/mods/total-mayhem.png fa-total-mayhem.wiki/images/mods
   
+            # Execute the wiki generation
             - name: Execute lua run
               run: |
                 lua mods/fa-total-mayhem/wiki/Run.lua --OutputDirectory="fa-total-mayhem.wiki/" --WikiGeneratorDirectory="brew-wiki-gen/" --FADirectory="fa"
@@ -125,7 +131,7 @@ jobs:
                   path: |
                     fa-total-mayhem.wiki
 
-            # Update the wiki. This is required if you dont want people to much around in order to actually get the wiki updated
+            # Update the wiki. This is required if you dont want people to muck around in order to actually get the wiki updated
             - name: Update Wiki repository 
               working-directory: fa-total-mayhem.wiki
               run: |
