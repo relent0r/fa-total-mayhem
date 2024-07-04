@@ -24,15 +24,15 @@ echo "Target Directory: $targetdir"
 mkdir -p "$targetdir"
 
 # List all files in the source directory
-for name in "$sourcedir"/*; do
-  # Check if the file ends with 'icon.png' (case insensitive)
-  if [[ "${name,,}" == *icon.png ]]; then
-    # Extract the base name without the _icon.png part
-    base=$(basename "$name")
-    newname=$(echo "$base" | sed -E 's/_([iI][cC][oO][nN])\.png$/_icon.png/')
+
+for name in "$sourcedir"/*.png; do
+  base_name=$(basename "$name")
+  if [[ "$base_name" =~ \.png$ ]]; then
+    prefix=$(echo "${base_name%%_*}" | tr '[:lower:]' '[:upper:]')
+    suffix=$(echo "${base_name##*_}" | tr '[:upper:]' '[:lower:]')
+    new_name="${prefix}_${suffix}"
     
-    # Copy the file to the target directory with the new name
-    cp "$name" "$targetdir/$newname"
+    cp "$name" "$targetdir/$new_name"
   fi
 done
 
