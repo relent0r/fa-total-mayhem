@@ -34,6 +34,10 @@ jobs:
           run: |
             wiki/icons-convert-unit.sh
 
+        - name: Dump current icon file list
+          run: |
+            ls wiki/generated/units
+
         # Rename the generated icons to the correct case so that the wiki generator will play nice.
         - name: Rename generated icon names
           working-directory: mods/fa-total-mayhem
