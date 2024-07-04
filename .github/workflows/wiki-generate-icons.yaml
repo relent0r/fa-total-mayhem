@@ -18,9 +18,9 @@ jobs:
         - name: Checkout Total Mayhem repository
           uses: actions/checkout@v4
           with:
-              repository: FAForever/fa-total-mayhem
+              repository: relent0r/fa-total-mayhem
               path: mods/fa-total-mayhem
-              ref: master
+              ref: feat/workflow-generate
               sparse-checkout-cone-mode: |
                 icons/units
 
