@@ -29,8 +29,8 @@ for name in "$sourcedir"/*.png; do
   base_name=$(basename "$name")
   if [[ "$base_name" =~ \.png$ ]]; then
     prefix=$(echo "${base_name%%_*}" | tr '[:lower:]' '[:upper:]')
-    suffix=$(echo "${base_name##*_}" | tr '[:upper:]' '[:lower:]')
-    new_name="${prefix}_${suffix}"
+    rest="${base_name#*_}"
+    new_name="${prefix}_${rest,,}"
     
     cp "$name" "$targetdir/$new_name"
   fi
