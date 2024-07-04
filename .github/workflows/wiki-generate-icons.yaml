@@ -35,6 +35,7 @@ jobs:
             wiki/icons-convert-unit.sh
 
         - name: Dump current icon file list
+          working-directory: mods/fa-total-mayhem
           run: |
             ls wiki/generated/units
 
