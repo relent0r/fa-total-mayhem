@@ -125,7 +125,8 @@ jobs:
                   path: |
                     fa-total-mayhem.wiki
 
-            - name: Update Wiki repository # but it is a string here!
+            # Update the wiki. This is required if you dont want people to much around in order to actually get the wiki updated
+            - name: Update Wiki repository 
               working-directory: fa-total-mayhem.wiki
               run: |
                   git config user.email "administrator@faforever.com"
