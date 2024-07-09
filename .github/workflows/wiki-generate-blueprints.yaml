@@ -78,10 +78,6 @@ jobs:
                 repository: FAForever/fa-total-mayhem.wiki
                 path: ./fa-total-mayhem.wiki
 
-            # Flush the current wiki directory. This wont actually wipe anything unless the push at the end of this workflow
-            - name: Flush folder contents
-              run: rm -rf fa-total-mayhem.wiki/*
-
             - name: Download Icons
               uses: actions/download-artifact@v4
               with:
